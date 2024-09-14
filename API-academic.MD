@@ -101,12 +101,13 @@ The Main KM process defined by Kucza et al aligns to H1a (anatomy of API in addr
 Spoelstra et al. notes three organizational factors that align to the model, first top management support and instrumental mechanisms, organizational structures and reuse roles and communication channels and organization support. "Top management support and instrumental mechanisms are taken as a factor for indicating the commitment of top management" (Spoelstra et al, 2011) which aligns to H3 and concept of commitment. "The organizational structure and related reuse roles are often approached as a formal separation between producers of reusable assets and consumers of reusable assets" (Spoelstra et al, 2011) aligns to H2 and the concept of co-creation through service-dominant logic. They further explain this through the concept of "producers of reusable assets are those who create the assets, and the consumers are those who use the assets in building new solutions." Finally, the authors note the identification of communications channels and how they are supported which we believe is done through knowledge sharing and digital platform of discovery H1. Figure 1 below is the model based on the research of knowledge management and software reuse this study is oriented around.
 
 ![Figure 1](architecture.png)
+*Figure 1*
 
 The level at which this study will be done will be at the Unit of analysis at API level and whether users are using the API.
 
 | **Variable Name** | **Definition** |
 |-------------------|----------------|
-| API Anatomy | The API Anatomy represents the taxonomy of the API which includes the API Classification (from simple to complex) and API Audience (number of different audiences that can call the API).<br><br>Anatomy of API = API Classification + API Audience<br><br>Example:<br>- Integration API (3) + company-internal (3) 6<br>- Façade API (1) + component-internal (1) 2<br><br>The anatomy communicates potential increase to Knowledge Sharing |
+| API Anatomy | The API Anatomy represents the taxonomy of the API which includes the API Classification (from simple to complex) and API Audience (number of different audiences that can call the API).<br><br>Anatomy of API = API Classification + API Audience<br><br>Example:<br>- Integration API (3) + company-internal (3) = 6<br>- Façade API (1) + component-internal (1) = 2<br><br>The anatomy communicates potential increase to Knowledge Sharing |
 | API Classification | An aggregated score of 8 different API types (from simple to complex), measured through an inter-rater reliability instrument. Inter-rater reliability is a score of the consistency given by the same person across multiple instances. Using the manually classified APIs. The survey questions related to anatomy of an API include question number (5) -- how important with an average of 6.7 out of 7 indicating that this is the important aspect of knowledge discovery. Three members of the interview panel were asked as part of the API classification (types of APIs) which ones were simple, medium and more complex as related to API design. Members were asked to rate APIs with the following complexity for (1 -- Simple, 3- Medium and 5 -- Complex)<br><br>Simple due to the simple nature of the type of API (score of 1)<br>- Façade API<br>- Data API<br><br>Medium due to the nature of multiple steps and integration with systems or end-user applications (score of 3)<br>- Integration<br>- Orchestration<br>- Choreography<br>- Experience<br><br>Complex -- do to the perceived complexity in difference options to drive search, crawl and workflow (score of 5)<br>- Workflow<br>- Hypermedia<br>- Search<br><br>Cohen's Kappa: P­0 = 1.0 |
 | API Audience | An aggregated score of 5 different audience using a simple count of audiences that have a potential to call the API; external-partner APIs by definition are built for external reuse (external, company, business unit and internal), company-internal (company, business unit and internal) are built for internal reuse, business-unit-internal (business unit and internal) are build for reuse within a department and component-internal (internal) was meant for the specific component<br><br>- external-public - 5<br>- external-partner -- 4<br>- company-internal -- 3<br>- business-unit-internal -- 2<br>- component-internal -- 1<br><br>This is the degree of reuse potential based on the number of audiences that can consume the API. API Audience as measured as by number of consumers have the potential to call the service is represented as a value for the number of different consumers that can call. External-public is accessible by all (5) audiences so will have a value of 5. |
 | Discovery | Defined as the ability to discover what Web APIs exist in an organization |
@@ -212,13 +213,10 @@ This manual analysis of the API ecosystem shows the cost of not having a reuse p
 - Those that note organization commitment also note the organizational issues as being more significant (question 7)
   - Confirming Hypothesis H4 that the organization must be committed
 
-Figure All Responses
-
 ![Coorelation](responses.png)
+*Figure 2 All Responses*
 
-Across all surveyed individuals we don't see as strong correlation between the questions; however when we look at the API professional developers we see stronger correlation to the conceptual model.
-
-Figure (14 API Professionals)
+Across all surveyed individuals we don't see as strong correlation between the questions; however when we look at the API professional developers we see stronger correlation to the conceptual model. 
 
 |            | *Reuse*      | *Knowledge* | *Discovery*  | *Anatomy*   | *Evangelism* | *Commitment* |
 |------------|--------------|-------------|--------------|-------------|--------------|--------------|
@@ -228,8 +226,9 @@ Figure (14 API Professionals)
 | Anatomy    | 0.8368251    | -0.452267   | **0.8660254**| 1           |              |              |
 | Evangelism | 0.44011055   | -0.1694347  | 0.40555355   | 0.37463432  | 1            |              |
 | Commitment | 0.24340246   | 0.01212856  | 0.2090199    | 0.23129892  | **0.68662699**| 1           |
+*Figure 3 (14 API Professionals)*
 
-Correlation of variables
+**Correlation of variables**
 
 Correlation of the variables show a strong relationship of discovery on reuse, and a strong relationship of anatomy on knowledge which is consistent with the conceptual framework (when we look at the 14 API professionals in the survey). In addition, management commitment and evangelism are noted as moderating consistent with the conceptual model
 
@@ -256,8 +255,9 @@ As Morisio et al (Morisio, 2002) summarizes a decision sequence and definition o
 This paper provides evidence of the benefits of a taxonomy, practice and discovery to enable a Web API reuse practice at a firm. These premises imply, that value is co-created by multiple stakeholders (consumer and producer).
 
 ![Figure 1](anatomy.png)
+*Figure 4 The anatomy of value propositions*
 
-As in figure 1 from the Journal of Academy we align the representational layer to the development of the taxonomy and principles to support co-creation; this taxonomy provides a clear and concise language to describe the aspects of the Web APIs to provide interaction opportunities. We further provide tooling to support problem finding within the provision layer -- a tool to support finding opportunities for reuse within the organization. We further provide evidence supporting the creation of a practice that supports co-creation in addition to a Web API discovery process to support knowledge sharing across organizational boundaries.
+As in figure 4 from the Journal of Academy we align the representational layer to the development of the taxonomy and principles to support co-creation; this taxonomy provides a clear and concise language to describe the aspects of the Web APIs to provide interaction opportunities. We further provide tooling to support problem finding within the provision layer -- a tool to support finding opportunities for reuse within the organization. We further provide evidence supporting the creation of a practice that supports co-creation in addition to a Web API discovery process to support knowledge sharing across organizational boundaries.
 
 ## Discussion
 
