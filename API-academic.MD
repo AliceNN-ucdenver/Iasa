@@ -228,6 +228,7 @@ Across all surveyed individuals we don't see as strong correlation between the q
 | Anatomy    | 0.8368251    | -0.452267   | **0.8660254**| 1           |              |              |
 | Evangelism | 0.44011055   | -0.1694347  | 0.40555355   | 0.37463432  | 1            |              |
 | Commitment | 0.24340246   | 0.01212856  | 0.2090199    | 0.23129892  | **0.68662699**| 1           |
+
 *Figure 3 (14 API Professionals)*
 
 **Correlation of variables**
