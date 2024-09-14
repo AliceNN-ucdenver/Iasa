@@ -215,6 +215,7 @@ This manual analysis of the API ecosystem shows the cost of not having a reuse p
   - Confirming Hypothesis H4 that the organization must be committed
 
 ![Coorelation](responses.png)
+
 *Figure 2 All Responses*
 
 Across all surveyed individuals we don't see as strong correlation between the questions; however when we look at the API professional developers we see stronger correlation to the conceptual model. 
@@ -255,7 +256,8 @@ As Morisio et al (Morisio, 2002) summarizes a decision sequence and definition o
 
 This paper provides evidence of the benefits of a taxonomy, practice and discovery to enable a Web API reuse practice at a firm. These premises imply, that value is co-created by multiple stakeholders (consumer and producer).
 
-![Figure 1](anatomy.png)
+![Figure 4](anatomy.png)
+
 *Figure 4 The anatomy of value propositions*
 
 As in figure 4 from the Journal of Academy we align the representational layer to the development of the taxonomy and principles to support co-creation; this taxonomy provides a clear and concise language to describe the aspects of the Web APIs to provide interaction opportunities. We further provide tooling to support problem finding within the provision layer -- a tool to support finding opportunities for reuse within the organization. We further provide evidence supporting the creation of a practice that supports co-creation in addition to a Web API discovery process to support knowledge sharing across organizational boundaries.
