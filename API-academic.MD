@@ -196,7 +196,7 @@ This manual analysis of the API ecosystem shows the cost of not having a reuse p
 
 ## Results
 
-![Chart, pie chart Description automatically generated](media/image2.png)
+![Survey responses](survey.png)
 
 - Questions 2, 3 and 4 confirm that when noted that the behavior is negative that the producers believe it is due to external factors.
   - Confirms prior research related to attribution theory and negative behavior is seen as something external to the person.
@@ -212,7 +212,7 @@ This manual analysis of the API ecosystem shows the cost of not having a reuse p
 
 Figure All Responses
 
-![Graphical user interface, application, Teams Description automatically generated](media/image3.png)
+![Coorelation](responses.png)
 
 Across all surveyed individuals we don't see as strong correlation between the questions; however when we look at the API professional developers we see stronger correlation to the conceptual model.
 
