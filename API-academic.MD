@@ -59,6 +59,8 @@ Research shows that people attribute success internally (the source is internal)
 
 Weiner (1985) states that attribution theory holds that attributions for these behaviors and outcomes help to shape emotional and behavioral responses. Attributions can help us identify and avoid the behaviors through the causal factors that caused them. The Attribution-Emotion-Behavior process is depicted below.
 
+![Attribution](attribtuion.png)
+
 | **Stability** | **Locus of control** |                |
 |---------------|----------------------|----------------|
 |               | Internal             | External       |
