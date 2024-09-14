@@ -389,6 +389,82 @@ The next definition that is required is to classify the API with respect to the 
 
 - country-code: this would be used to identify residency rules or things like GDPR, we could then redact those fields in the response
 
+## 3. Survey Results
+
+| Question | Results |
+|----------|---------|
+| 1 | Awareness (3)<br>Legacy (4)<br>No Digital Platform (No Catalog) (36)<br>Organizational commitment (32) |
+| 2 | Average: 4.4<br>(external factors) |
+| 3 | Average 4.5<br>(more lack of discovery) |
+| 4 | Average 4.6<br>(outside of control) |
+| 5 | Average 5.8<br>(extremely important) |
+| 6 | Average 3.5<br>(more local commitment) |
+| 7 | Average 3.9<br>(Those that believe organization issues believe solution lies in organizational solutions) |
+| 8 | Build Catalog (45)<br>Organizational Commitment (20)<br>Quality of API (7)<br>Team Structure (3) |
+
+**T-test across Question 5**
+
+We looked to see if there were any significance between those that believe organization, awareness, or no catalog (digital platform) as it relates to Q5 (discover).
+
+| Cause | Statistic | Pvalue |
+|-------|-----------|--------|
+| Awareness, Catalog | 0.5 | 0.6 |
+| Awareness, Organization | 0.8 | 0.4 |
+| Catalog, Organization | 0.8 | 0.4 |
+
+No significance to say that a certain cause impacts overall statistic related to the hypothesis that a digital platform is important.
+
+**Raw**
+
+| Write down one major cause |
+|----------------------------|
+| In my view, a lack of practice/architecture stewardship to drive reuse while leveraging a cross platform catalog for API including dependency for both APIs and data. |
+| I'm aware this doesn't quite answer the question asked, but knowing we don't have a catalogue, I would focus on reaching out to teams that may have that ability prior. From there, it comes back to delivery schedule as the schedule seems to ALWAYS be set prior to development getting involved. |
+| One of the major causes is monolithic web applications in our business unit. These monolithic applications were developed when services-based architecture was not enforced, thus rendering them very hard to fit into service based architecture. |
+| Business should be aware of what already exists and warn me about the possibility to reuse it. |
+| My major challenges of not re-using any Existing APIs or any building block is because of lack of one directory List or one single API inventory or single common capability reference site, across global retirement/GWAM that clearly define the capabilities of APIs/building blocks to match to my search term OR requirements. Secondly, even if I found a matched Web API from another division then I do not know the process of engagement and point of contact to start exploring the option of reusing that API for our use cases. Third, I am not aware of any defined reference architecture for reusing the building blocks across global retirement/GWAM. for example, support process, disaster recovery process etc. Forth, the risk review of any solution involving another division capability/APIs also requires a lot of effort and time because the risk team is not involved or part of agile squad from start. Because of all above challenges, majority of time, it is way faster to rebuild capability at our own division level and on-going supporting process is also simple in that way. |
+| Not aware of Web APIs that are already available outside my sub-division (U.S. Retirement) except perhaps one other division (Digital Engineering). |
+| Conway's Law. Often APIs weren't built for reuse and/or multiple consumers/data sources. While a capability may be common, the APIs are often built for one consumer. Work to increase an API's consumer base is often not prioritized, so when a new consumer needs it, there is not enough time to prioritize/fund the work for that consumer's project. This leads to "doing it yourself". |
+| Lack of documentation on what capabilities already exist |
+| We do not see centralized API repository categorized by business needs. |
+| Ownership and Accountability issues when things go south. |
+| I don't know what's available |
+| The absence of a comprehensive API catalog. |
+| Hard to discover the API and its usage (i.e. no Knowledge Base control) |
+| No API catalog exists with consistent language |
+
+| Write down one major improvement that would drive cross-enterprise reuse for you |
+|-----------------------------------------------------------------------------------|
+| APIs should be treated as applications and should be easily discoverable via a catalog of assets. |
+| Having the catalogue would help, but ensuring all engineers start there and communicate seems to be the larger struggle. As well, having a path for handling "missing features" will help us reduce the "well, it doesn't have everything I need so I'll write it the way I need it". |
+| Enforcing stringent rule that any future development must be done in accordance with service based architecture where an approval process should examine the development with maximized reusability goal. |
+| Awareness of ALL collaborators about how it works and the importance of doing it. |
+| Single API inventory or single common capability reference site, across global retirement/GWAM that clearly define the capabilities of APIs/building blocks with examples of reuse requirements or scenarios. |
+| A common single portal (like Confluence) that hosts all service capabilities across the organization which makes it easier to search and identify what is available and making it relatively easy to either reuse or clone it. |
+| A shift in thinking when all APIs are designed towards a universal assumption: The API will be consumed by Multiple [types of] Consumers and that those consumers will be both interal, cross domain and external 3rd parties. This assumption would encourage extendable designs to allow for greater resuse both immediately and over time. This assumption often leads into data "ownership" questions and can question the org struct status quo. Ultimately for an API/Digital/Agile transformation to succeed, an org needs to structure around an appropriate architecture rather than trying to fit the architecture into an org structure. |
+| Ease of discovery. Architecture documentation. |
+| We need centralized API repository categorized by business needs.(For Example WDAY API's might be REST calls not SOAP based as in WDAY) |
+| Define clear accountability and ownership when things go South. |
+| Build a API catalog to facilitate self-service search and learn how APIs are used in live systems. |
+| Right signal/noise ratio: What is public/private to application/operating unit/segment, Not every API should be exposed publicly. |
+| Knowledge Base Management tool should be promoted for managing APIs |
+| an inventory of assets that are well understood for their usage |
+
+## 4. Principles
+
+| **Principle** | **Details** |
+|---------------|-------------|
+| P.1 Consumer focused interfaces information by API classification:  The interface should speak the users language and their usage pattern | •Do the message formats and patterns match the users mental model?<br>•Are we mixing singular and plural nouns<br>•Are APIs aligned to the user experience (e.g. integration, experience, search, data, aggregation)?<br>•Are we properly using HTTP verbs to convey action rather than verbs in the url (.e.g. GET /accounts vs POST /getAccounts)? |
+| P.2 Consistency and standards: The users should not have to wonder different words, situations or actions mean the same thing | •Is the API consistent in its signature (URI, Query)?<br>•Appropriate use of HTTP verbs (e.g. GET routes - query string should not alter state)<br>•Use consistent vocabulary (plural nouns, words have same meaning everywhere)<br>•Is documentation and support tooling consistent and comprehensive across all parts of the API |
+| P.3 Flexibility and efficiency of use: The interface should be suitable for a first time user | •Is the API chatty -- does the UX need to chain multiple requests together<br>•Is is obvious which endpoints to use for the action required? |
+| P.4 Help users diagnose and recover from errors:  The error messages should have two audiences (machine and human) | •Is machine readable information provided (e.g. ULS)?<br>•Is enough information (combined with documentation) provided to correct the error<br>•Are the HTTP error code providing the right context (e.g. if it is a client error is enough information provided to correct the error)<br>•Are proper response code levels being returned (HTTP 4xx for client, 5xx for server, No 200 with error)<br>•Are the response codes correct for use case (e.g. HTTP 206 is not used for paging/lists) |
+| P.5 Versioning your API:  Make the API version mandatory and vitality and deprecation part of the design | •Are you maintaining backward compatibility?<br>•Did you provide vitality information as part of your review?<br>•Are you following versioning guidelines? |
+| P.6 Help and documentation:  Any information should be easy to search and focused on the user tasks | •Does the Open API specification contain the proper meta-data?<br>•Do the operations and parameters have well defined usage patterns?<br>•Are based paths defined?<br>•Are you reusing components?<br>•Are examples defined in the specification?<br>•Are expected headers (request and response defined)?<br>•Are security schemes defined and applied to paths<br>•Are property restrictions defined (field length, proper data type, regex patterns) |
+| P.7 Do not expose PII data through URIs:  Clients should not transmit PII parameters in the URL (as part of Path or query string) because this information ca be inadvertently exposed via client, network and server logs or other mechanisms | •Are Opaque IDs used in Urls?<br>•How are specific records identified and do they adhere to the privacy policy standards? |
+| P.8 Security-first:  Security incudes authentication, authorization and access control | •What tokens and polices are used to protect the API?<br>•You should not be returning system information (e.g. Database error, stack trace)<br>•How is server to server AuthN/AuthZ handled?<br>•How is user to server AuthN/AuthZ handled? |
+| P.9 All APIs must include /health (ability to check running) and /status (deep check). | •Is there a /health API for the F5 load balancers<br>•IS there a /status API that provides end-to-end health validation?<br>•How is failure addressed? |
+| P.10 API Re-usability:  The ability to reuse a functionality of an API for different applications, as opposed to building a new one every time a consumer needs one | •Are there other APIs in the portfolio that access the same data<br>•Why are you proposing a new API as opposed to enhancing the one you have?<br>•How many applications or systems will be consuming the data from the API?<br>•What are the prospects of expanding the use of the API in the future? |
+
 # References
 
 Arthur (2009). The Nature of Technology: What it Is and How it Evolved, Penguin, London, 2009 p.124
