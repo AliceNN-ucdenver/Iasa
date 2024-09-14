@@ -18,7 +18,7 @@ The "mall map" serves as an analogy for an organized API catalog or storefront. 
 
 **From Chief Archaeologist to Modern Explorer**
 
-In the past, discovering existing APIs within an organization often felt like archaeology—digging through legacy systems, documentation, and codebases to unearth reusable components. Some have even referred to themselves as the "resident chief archaeologist," sifting through layers of code in search of hidden treasures. This manual approach is time-consuming and inefficient, akin to wandering the mall without a map.
+In the past, discovering existing APIs within an organization often felt like archaeology—digging through legacy systems, documentation, and codebases to unearth reusable components. Some have (maybe just me) even referred to themselves as the "resident chief archaeologist," sifting through layers of code in search of hidden treasures. This manual approach is time-consuming and inefficient, akin to wandering the mall without a map.
 
 Fortunately, advancements in technology have provided new tools that transform how we discover and manage APIs. These solutions move beyond the archaeology aspect, offering sophisticated "mall maps" for the API ecosystem. They provide features like automated discovery, cataloging, and documentation, enabling organizations to have a comprehensive view of their API landscape. Developers no longer need to be archaeologists; instead, they can become modern explorers, leveraging these platforms to find and integrate APIs effortlessly.
 
@@ -148,7 +148,7 @@ When organizations overcome the hurdles and fully leverage APIs, the rewards are
 
 In an era where digital transformation is reshaping industries, the strategic use of APIs is a powerful lever for businesses to avoid disruption and stay ahead of the curve. By developing a robust API strategy that includes a clear taxonomy, centralized discovery platforms (your "mall map"), a culture of knowledge sharing, and strong organizational commitment, companies can unlock the full potential of their IT-enabled information capabilities.
 
-No longer do developers need to be the "resident chief archaeologist," painstakingly digging through codebases to find reusable components. With advanced discovery tools moving beyond manual archaeology, organizations now have the means to efficiently map out and leverage their API assets.
+No longer do developers or achitects need to be the "resident chief archaeologist," painstakingly digging through codebases to find reusable components. With advanced discovery tools moving beyond manual archaeology, organizations now have the means to efficiently map out and leverage their API assets.
 
 By embracing these principles and strategies, businesses can transform their approach to innovation and growth. APIs are more than just technical tools—they are enablers of a dynamic, responsive, and collaborative enterprise. Those that recognize this and invest accordingly will be well-positioned to navigate the challenges of the digital economy and capitalize on the opportunities it presents.
 
