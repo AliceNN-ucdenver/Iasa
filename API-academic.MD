@@ -101,6 +101,7 @@ The Main KM process defined by Kucza et al aligns to H1a (anatomy of API in addr
 Spoelstra et al. notes three organizational factors that align to the model, first top management support and instrumental mechanisms, organizational structures and reuse roles and communication channels and organization support. "Top management support and instrumental mechanisms are taken as a factor for indicating the commitment of top management" (Spoelstra et al, 2011) which aligns to H3 and concept of commitment. "The organizational structure and related reuse roles are often approached as a formal separation between producers of reusable assets and consumers of reusable assets" (Spoelstra et al, 2011) aligns to H2 and the concept of co-creation through service-dominant logic. They further explain this through the concept of "producers of reusable assets are those who create the assets, and the consumers are those who use the assets in building new solutions." Finally, the authors note the identification of communications channels and how they are supported which we believe is done through knowledge sharing and digital platform of discovery H1. Figure 1 below is the model based on the research of knowledge management and software reuse this study is oriented around.
 
 ![Figure 1](architecture.png)
+
 *Figure 1*
 
 The level at which this study will be done will be at the Unit of analysis at API level and whether users are using the API.
