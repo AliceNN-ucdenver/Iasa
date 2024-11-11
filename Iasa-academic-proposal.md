@@ -315,7 +315,7 @@ CEO and Founder, IASA Global
 ## 11. Next Steps
 
 ### Board Decisions Required
-1. Program approval and funding
+1. Program approval and funding (One resource)
 2. Resource allocation
 3. Timeline confirmation
 4. Governance structure approval
