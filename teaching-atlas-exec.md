@@ -68,29 +68,42 @@ graph TB
 ## Core Components
 1. **Certified Teaching Environment**
 ```mermaid
-flowchart TB
-    subgraph IASA["IASA Oversight"]
-        Standards["Standards & Quality"]
-        Certification["Certification Program"]
-        Support["Support Network"]
+graph LR
+    subgraph Oversight
+        IASA[IASA Oversight]
+        Standards[Standards]
+        Cert[Certification]
     end
-    
-    subgraph Firm["Teaching Firm"]
-        Mentors["Certified Mentors"]
-        Projects["Client Projects"]
-        Learning["Learning Environment"]
+
+    subgraph Implementation
+        Firm[Teaching Firm]
+        Mentors[Certified Mentors]
+        Projects[Client Projects]
     end
-    
-    subgraph Development["Development Path"]
-        Foundation["Foundation Phase"]
-        Intermediate["Development Phase"]
-        Advanced["Advanced Phase"]
+
+    subgraph Development
+        Phase1[Foundation]
+        Phase2[Development]
+        Phase3[Advanced]
     end
-    
+
     IASA --> Firm
-    Firm --> Development
-    Development --> Quality["Quality Assessment"]
+    Standards --> Firm
+    Cert --> Mentors
+    
+    Firm --> Phase1
+    Mentors --> Phase1
+    Projects --> Phase1
+    
+    Phase1 --> Phase2
+    Phase2 --> Phase3
+    
+    Phase3 --> Quality[Quality Assessment]
     Quality --> IASA
+
+    style IASA fill:#4a90e2,color:white
+    style Firm fill:#50c878,color:white
+    style Quality fill:#f1c40f,color:black
 ```
    - IASA-certified mentors
    - Structured learning pathways
