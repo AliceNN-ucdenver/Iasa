@@ -1,28 +1,16 @@
 # IASA ATLAS Framework
 ## Architecture Teaching, Learning And Support
 
-## Table of Contents
-1. Executive Summary
-2. Program Structure
-3. Learning Pathway
-4. Assessment Framework
-5. Quality Assurance
-6. Risk Management
-7. Appendices
+## Executive Summary
 
-## 1. Executive Summary
+IASA ATLAS (Architecture Teaching, Learning And Support) transforms architect development through a teaching hospital model for technology architecture. This 24-month program creates a structured pathway to CITA-F certification while addressing critical industry challenges.
 
-IASA ATLAS combines a teaching firm model with an academic pathway to create junior architects aligned with CITA-F certification. The program addresses critical industry challenges:
-- Limited entry paths for junior architects
-- High costs of architect development
-- Inconsistent training approaches
-- Knowledge transfer challenges
-
-### Key Program Elements
-- 24-month structured learning pathway
-- CITA-F aligned competency development
-- Certified teaching environments
-- Quality-assured mentorship
+### Key Outcomes
+- Industry-ready junior architects
+- CITA-F certification preparation
+- Reduced development costs
+- Standardized quality assurance
+- Knowledge preservation framework
 
 ```mermaid
 graph TB
@@ -32,127 +20,207 @@ graph TB
         QF["Quality Framework"]
     end
 
-    subgraph Implementation["Delivery Model"]
-        MT["Mentor Training"]
-        SP["Structured Pathway"]
-        QA["Quality Assurance"]
+    subgraph Delivery["24-Month Path"]
+        FP["Foundation (Q1-Q2)"]
+        DP["Development (Q3-Q6)"]
+        AP["Advanced (Q7-Q8)"]
     end
 
-    subgraph Outcomes["Target Outcomes"]
+    subgraph Outcomes["Targets"]
         JA["Junior Architects"]
         CF["CITA-F Ready"]
         QP["Quality Practice"]
     end
 
-    Program --> Implementation
-    Implementation --> Outcomes
+    Program --> Delivery
+    Delivery --> Outcomes
 
     style Program fill:#4a90e2,color:white
-    style Implementation fill:#50c878,color:white
+    style Delivery fill:#50c878,color:white
     style Outcomes fill:#9b59b6,color:white
 ```
 
-## 2. Program Structure
-
-### BTABoK Competency Integration
+## BTABoK Competency Framework
 
 ```mermaid
 mindmap
     root((BTABoK))
         Business Technology
-            Requirements Analysis
-            Strategy Development
-            Business Case Creation
-            Investment Planning
+            Strategy
+                Requirements & Constraints
+                Business Model Analysis
+                Industry Analysis
+                Digital Transformation
+            Investment
+                Portfolio Management
+                Risk Management
+                Value Assessment
+                Investment Planning
+            Innovation
+                Innovation Management
+                Technology Trends
+                Emerging Technologies
+                Strategic Planning
         Design
-            Pattern Recognition
-            Solution Structure
-            Documentation
-            Quality Analysis
+            Patterns
+                Architecture Patterns
+                Design Patterns
+                Integration Patterns
+                Security Patterns
+            Solutions
+                Requirements Modeling
+                Views & Viewpoints
+                Solution Structure
+                System Decomposition
+            Quality
+                Attributes & Trade-offs
+                Performance Engineering
+                Reliability & Availability
+                Security Architecture
         Human Dynamics
-            Team Collaboration
+            Leadership
+                Team Management
+                Change Leadership
+                Decision Making
+                Stakeholder Management
             Communication
-            Stakeholder Management
-            Professional Skills
+                Technical Writing
+                Presentations
+                Documentation
+                Client Relations
+            Facilitation
+                Negotiation
+                Conflict Resolution
+                Workshop Facilitation
+                Collaboration
         IT Environment
             Infrastructure
-            Security Basics
-            Development Methods
-            Technology Assessment
-        Quality Attributes
-            Performance
+                Platforms & Frameworks
+                Cloud Architecture
+                Network Architecture
+                Operations
             Security
-            Scalability
-            Reliability
+                Security Principles
+                Threat Modeling
+                Security Controls
+                Compliance
+            Integration
+                Enterprise Integration
+                API Management
+                System Interfaces
+                Data Integration
 ```
 
-## 3. Learning Pathway
-
-### Quarter-by-Quarter Progression
-
-```mermaid
-graph LR
-    subgraph FP["Foundation Phase"]
-        Q1["Q1: Basic Concepts"]
-        Q2["Q2: Applied Learning"]
-    end
-
-    subgraph DP["Development Phase"]
-        Q3["Q3: Guided Practice"]
-        Q4["Q4: Independent Work"]
-    end
-
-    Q1 --> Q2
-    Q2 --> |"Foundation Gate"| Q3
-    Q3 --> Q4
-    Q4 --> |"CITA-F Ready"| Cert["Certification"]
-
-    style FP fill:#4a90e2,color:white
-    style DP fill:#50c878,color:white
-    style Cert fill:#f1c40f,color:black
-```
+## 24-Month Program Structure
 
 ### Foundation Phase (Q1-Q2)
-- BTABoK fundamentals
-- Basic architecture skills
-- Professional development
-- Technical foundations
 
-### Development Phase (Q3-Q4)
-- Applied architecture
-- Guided projects
-- Stakeholder management
-- Technical depth
+#### Quarter 1: Foundations
+- **Business**: Requirements Discovery and Constraints Analysis
+- **Human**: Collaboration and Negotiation
+- **Design**: Requirements Modeling
+- **IT**: Infrastructure Basics
+- **Quality**: Basic Attribute Analysis
 
-## 4. Assessment Framework
+#### Quarter 2: Application
+- **Business**: Strategy Development
+- **Human**: Writing Skills
+- **Design**: Views and Viewpoints
+- **IT**: Application Development
+- **Quality**: Performance & Reliability
 
-### Scoring System
-1. Learning (Level 1)
-   - Initial exposure
+### Development Phase (Q3-Q6)
+
+#### Quarter 3: Core Skills
+- **Business**: Business Fundamentals
+- **Human**: Peer Interaction
+- **Design**: Patterns and Styles
+- **IT**: Asset Management
+- **Quality**: Usability & Accessibility
+
+#### Quarter 4: Integration
+- **Business**: Risk Management
+- **Human**: Presentation Skills
+- **Design**: Architecture Description
+- **IT**: Change Management
+- **Quality**: Security Fundamentals
+
+#### Quarter 5: Advanced Skills
+- **Business**: Investment Planning
+- **Human**: Cultural Management
+- **Design**: Lifecycle Traceability
+- **IT**: Platforms & Frameworks
+- **Quality**: Monitoring & Management
+
+#### Quarter 6: Synthesis
+- **Business**: Industry Analysis
+- **Human**: Customer Relations
+- **Design**: System Decomposition
+- **IT**: Technical Project Management
+- **Quality**: Solution Delivery
+
+```mermaid
+graph TB
+    subgraph QF["Quality Framework"]
+        direction TB
+        Review["Regular Reviews"]
+        Mentor["Mentor Support"]
+        IASA["IASA Oversight"]
+    end
+    
+    subgraph Gates["Assessment Gates"]
+        G1["Q2: Foundation"]
+        G2["Q4: Development"]
+        G3["Q6: Advanced"]
+        G4["Q8: CITA-F Ready"]
+    end
+    
+    QF --> Gates
+    
+    style QF fill:#4a90e2,color:white
+    style Gates fill:#50c878,color:white
+```
+
+## Assessment Framework
+
+### Scoring System (1-3 Scale)
+
+1. **Learning (Level 1)**
    - Basic understanding
-   - Guided application
+   - Requires guidance
+   - Foundational awareness
 
-2. Developing (Level 2)
-   - Independent practice
-   - Basic implementation
-   - Growing confidence
+2. **Developing (Level 2)**
+   - Growing independence
+   - Applied knowledge
+   - Regular mentoring
 
-3. CITA-F Ready (Level 3)
-   - Consistent delivery
+3. **CITA-F Ready (Level 3)**
    - Independent work
-   - Foundation mastery
+   - Demonstrated competency
+   - Consistent delivery
 
-### Example: First Phase Assessment (Q1-Q2)
+### Phase Gate Requirements
 
-| Competency Area | Criteria | Evidence Required | Minimum Score |
-|----------------|----------|-------------------|---------------|
-| Business Technology | Requirements analysis | Documented requirements, Stakeholder maps | 2.0 |
-| Design | Basic modeling | Architecture views, Pattern usage | 2.0 |
-| Human Dynamics | Team collaboration | Meeting participation, Documentation | 2.0 |
-| IT Environment | Infrastructure basics | Technology evaluations, Platform analysis | 2.0 |
-| Quality Attributes | Basic qualities | Quality scenarios, Trade-off analysis | 2.0 |
+#### Foundation Gate (Q2)
+| Competency | Minimum Score | Evidence Required |
+|------------|---------------|-------------------|
+| Business | 2.0 | Requirements documentation, Analysis reports |
+| Design | 2.0 | Architecture views, Model documentation |
+| Human | 2.0 | Team feedback, Communication samples |
+| IT | 2.0 | Infrastructure analysis, Technology reports |
+| Quality | 2.0 | Quality scenarios, Trade-off analysis |
 
-## 5. Quality Assurance
+#### Development Gate (Q4)
+| Competency | Minimum Score | Evidence Required |
+|------------|---------------|-------------------|
+| Business | 2.5 | Business cases, Risk assessments |
+| Design | 2.5 | Pattern applications, Architecture decisions |
+| Human | 2.5 | Presentations, Team leadership |
+| IT | 2.5 | Change management plans, Security designs |
+| Quality | 2.5 | Quality implementations, Security models |
+
+## Quality Control Framework
 
 ```mermaid
 graph TB
@@ -184,79 +252,41 @@ graph TB
     style Control fill:#9b59b6,color:white
 ```
 
-### Quality Control Measures
-1. Weekly mentor reviews
-2. Monthly peer assessments
-3. Quarterly IASA evaluations
-4. Continuous feedback loops
+### Risk Management Strategy
 
-## 6. Risk Management
+#### Technical Quality
+- Weekly mentor reviews
+- Monthly peer assessments
+- Quarterly IASA evaluations
+- Portfolio reviews
 
-### Quality Assurance Measures
-1. Chief Architect Oversight
-   - Regular review sessions
-   - Strategic guidance
-   - Quality validation
-   - Pattern approval
+#### Delivery Assurance
+- Project quality gates
+- Client feedback integration
+- Performance monitoring
+- Competency tracking
 
-2. Mentorship Quality
-   - Mentor certification
-   - Regular mentor training
-   - Performance monitoring
-   - Resource support
+#### Support Structure
+- Chief Architect oversight
+- Mentor certification
+- IASA guidance
+- Community support
 
-3. Delivery Excellence
-   - Weekly progress reviews
-   - Monthly assessments
-   - Client feedback integration
-   - Portfolio validation
+## Implementation Support
 
-### Escalation Paths
-1. Technical Concerns
-   - Mentor -> Chief Architect -> IASA Review
-   - 48-hour response commitment
-   - Documentation requirements
-   - Resolution tracking
+### Getting Started
+1. Initial assessment
+2. Mentor certification
+3. Program setup
+4. Quality framework implementation
 
-2. Quality Issues
-   - Immediate mentor notification
-   - Weekly quality reviews
-   - Monthly program assessment
-   - Quarterly IASA audit
+### Ongoing Management
+1. Progress tracking
+2. Quality monitoring
+3. Risk management
+4. Continuous improvement
 
-### Continuous Improvement
+## Contact Information
 
-```mermaid
-graph TB
-    FB["Feedback Collection"] --> AN["Analysis"]
-    AN --> PL["Planning"]
-    PL --> IM["Implementation"]
-    IM --> EV["Evaluation"]
-    EV --> FB
-
-    style FB fill:#4a90e2,color:white
-    style AN fill:#50c878,color:white
-    style PL fill:#9b59b6,color:white
-    style IM fill:#f1c40f,color:black
-    style EV fill:#e74c3c,color:white
-```
-
-## 7. Appendices
-
-### A. Assessment Templates
-[Detailed assessment templates per phase]
-
-### B. Quality Checklists
-[Quality control checklists and procedures]
-
-### C. Risk Management Procedures
-[Detailed risk management procedures and templates]
-
-### D. Program Materials
-[Additional program materials and resources]
-
----
-
-**Contact Information:**
 IASA Global
 [Contact Details]
