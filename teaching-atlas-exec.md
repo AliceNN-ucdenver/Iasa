@@ -79,20 +79,20 @@ graph TB
         Q1[Quarter 1 - Months 1-3]
         Q2[Quarter 2 - Months 4-6]
         
-        subgraph Q1C[Q1 Competencies]
-            Q1B[Business: Requirements & Constraints]
-            Q1H[Human: Collaboration & Negotiation]
-            Q1D[Design: Requirements Modeling]
-            Q1I[IT: Infrastructure]
-            Q1Q[Quality: Attribute Balancing]
-        end
-        
         subgraph Q2C[Q2 Competencies]
             Q2B[Business: Strategy Development]
             Q2H[Human: Writing Skills]
             Q2D[Design: Views and Viewpoints]
             Q2I[IT: Application Development]
             Q2Q[Quality: Performance & Reliability]
+        end
+
+        subgraph Q1C[Q1 Competencies]
+            Q1B[Business: Requirements & Constraints]
+            Q1H[Human: Collaboration & Negotiation]
+            Q1D[Design: Requirements Modeling]
+            Q1I[IT: Infrastructure]
+            Q1Q[Quality: Attribute Balancing]
         end
         
         Q1 --> Q1C
@@ -106,20 +106,12 @@ graph TB
         Q5[Quarter 5 - Months 13-15]
         Q6[Quarter 6 - Months 16-18]
         
-        subgraph Q3C[Q3 Competencies]
-            Q3B[Business: Business Fundamentals]
-            Q3H[Human: Peer Interaction]
-            Q3D[Design: Patterns and Styles]
-            Q3I[IT: Asset Management]
-            Q3Q[Quality: Usability & Accessibility]
-        end
-        
-        subgraph Q4C[Q4 Competencies]
-            Q4B[Business: Risk Management]
-            Q4H[Human: Presentation Skills]
-            Q4D[Design: Architecture Description]
-            Q4I[IT: Change Management]
-            Q4Q[Quality: Security]
+        subgraph Q6C[Q6 Competencies]
+            Q6B[Business: Industry Analysis]
+            Q6H[Human: Customer Relations]
+            Q6D[Design: Decomposition & Reuse]
+            Q6I[IT: Technical Project Management]
+            Q6Q[Quality: Packaging & Delivery]
         end
 
         subgraph Q5C[Q5 Competencies]
@@ -130,12 +122,20 @@ graph TB
             Q5Q[Quality: Monitoring & Management]
         end
 
-        subgraph Q6C[Q6 Competencies]
-            Q6B[Business: Industry Analysis]
-            Q6H[Human: Customer Relations]
-            Q6D[Design: Decomposition & Reuse]
-            Q6I[IT: Technical Project Management]
-            Q6Q[Quality: Packaging & Delivery]
+        subgraph Q4C[Q4 Competencies]
+            Q4B[Business: Risk Management]
+            Q4H[Human: Presentation Skills]
+            Q4D[Design: Architecture Description]
+            Q4I[IT: Change Management]
+            Q4Q[Quality: Security]
+        end
+
+        subgraph Q3C[Q3 Competencies]
+            Q3B[Business: Business Fundamentals]
+            Q3H[Human: Peer Interaction]
+            Q3D[Design: Patterns and Styles]
+            Q3I[IT: Asset Management]
+            Q3Q[Quality: Usability & Accessibility]
         end
 
         Q3 --> Q3C
@@ -149,20 +149,20 @@ graph TB
         Q7[Quarter 7 - Months 19-21]
         Q8[Quarter 8 - Months 22-24]
         
-        subgraph Q7C[Q7 Competencies]
-            Q7B[Business: Architecture Methodologies]
-            Q7H[Human: Leadership]
-            Q7D[Design: Whole Systems]
-            Q7I[IT: Knowledge Management]
-            Q7Q[Quality: Manageability]
-        end
-        
         subgraph Q8C[Q8 Competencies]
             Q8B[Business: Valuation]
             Q8H[Human: Advanced Negotiation]
             Q8D[Design: Analysis & Testing]
             Q8I[IT: Decision Support]
             Q8Q[Quality: Advanced Trade-offs]
+        end
+
+        subgraph Q7C[Q7 Competencies]
+            Q7B[Business: Architecture Methodologies]
+            Q7H[Human: Leadership]
+            Q7D[Design: Whole Systems]
+            Q7I[IT: Knowledge Management]
+            Q7Q[Quality: Manageability]
         end
 
         Q7 --> Q7C
