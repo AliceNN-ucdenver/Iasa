@@ -25,6 +25,63 @@ Most importantly, architects make difficult problems manageable. They achieve th
 
 The ability to explain technical concepts without jargon, making them accessible to those unfamiliar with protocols and stacks, is perhaps the most crucial skill for working with broad audiences who require clarity without deep technical background.
 
+## II. The "What": Strategic Business Alignment
+```mermaid
+flowchart TD
+    V[Vision and Purpose] --> O[Strategic Objectives/OKRs]
+    O --> TS[Technical Strategy]
+    
+    subgraph SS[Supplemental Strategies]
+        SS1[Data Strategy]
+        SS2[Security Strategy]
+        SS3[Cloud Strategy]
+        SS4[Integration Strategy]
+    end
+    
+    TS --> SS
+    
+    subgraph FA[Focus Areas]
+        FA1[Enterprise Architecture Models]
+        FA2[Blueprints]
+        FA3[Application Roadmaps]
+        FA4[Reference Architectures]
+    end
+    
+    SS --> FA
+    
+    subgraph IP[Implementation Patterns]
+        IP1[Handbooks]
+        IP2[Reference Implementations]
+        IP3[Solution Architecture]
+    end
+    
+    FA --> IP
+    
+    IP --> BA[Business Applications]
+    
+    style V fill:#c4e3f3,stroke:#5bc0de
+    style O fill:#c4e3f3,stroke:#5bc0de
+    style TS fill:#d9edf7,stroke:#5bc0de
+    style SS fill:#e8f5e9,stroke:#4caf50
+    style FA fill:#f5f5f5,stroke:#777777
+    style IP fill:#fff9c4,stroke:#ffd54f
+    style BA fill:#ffebee,stroke:#ef5350
+```
+
+[TO BE DRAFTED BY CIO]
+
+Key areas to address:
+- Alignment between technology capabilities and strategic business OKRs
+- Evolution from technical governance to business enablement
+- Frameworks for measuring architectural success
+- Cultural transformation requirements
+- Models for effective stakeholder engagement
+- Approaches to investment prioritization
+- Risk management in transformation
+- Innovation enablement strategies
+
+Just as a city's master plan must align with its economic and social goals, our technical strategy must directly support business objectives. This alignment sets the stage for how we execute our transformation.
+
 ## III. The "How": Building the Modern Enterprise
 
 Think of your enterprise technology landscape as a growing city. Just as urban planners balance immediate construction needs with long-term community vitality, modern technology leaders must create an environment that enables both rapid delivery and sustainable growth. Let's explore how four essential dimensions of city development map to our technology transformation journey:
@@ -193,14 +250,6 @@ During each program increment, state-level portfolio health data guides city pla
    - Target investments where most needed
    - Share successful patterns across cities
    - Balance local and state-wide improvements
-
-## VIII. Conclusion: Building Tomorrow's Enterprise
-
-The transformation from project-centric to product-oriented architecture represents more than a change in delivery methodology – it's a fundamental shift in how we create and sustain business value through technology. Just as thriving cities evolve from collections of buildings into vibrant, interconnected communities, our technology landscapes must transform from isolated projects into dynamic product platforms that enable continuous innovation.
-
-This journey requires enterprise architects to embrace a new identity: from gatekeepers to enablers, from standards enforcers to community builders, from project reviewers to product visionaries. Like skilled urban planners, modern architects must orchestrate sustainable growth while ensuring their technology "cities" remain livable, adaptable, and capable of meeting future challenges.
-
-Remember, just as great cities aren't built in a day, this transformation is a journey rather than a destination. The key is to start now, move purposefully, and keep the focus on enabling business outcomes rather than enforcing technical standards. In doing so, you'll build not just a technology landscape, but a thriving ecosystem that powers your organization's future success.
 
 ## VIII. Conclusion: Building Tomorrow's Enterprise
 
