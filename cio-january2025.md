@@ -181,7 +181,7 @@ A key element of evolutionary architecture is the use of fitness functions—aut
 
 ## V. The New Architect Mindset
 
-An architect’s mindset should evolve from the authoritarian 'Great and Powerful Oz,' who instills fear and questions the courage, heart, and intelligence of others, to one that mirrors Alice’s journey—guided by curiosity and self-discovery—encouraging teams to believe in the impossible and empowering them to achieve it. Today's enterprise architect must shift from being the "all powerful Oz" to becoming the "collabortive enabler" encouraging teams to take risks, learn continuously, and drive transformational change. This requires new competencies and approaches:
+An architect’s mindset should evolve from the authoritarian 'Great and Powerful Oz,' who instills fear and questions the courage, heart, and intelligence of others, to one that mirrors Alice’s journey—guided by curiosity and self-discovery—encouraging teams to believe in the impossible and empowering them to achieve it. Today's enterprise architect must encourage teams to take risks, learn continuously, and drive transformational change. This requires new competencies and approaches:
 
 ### From Control to Enablement
 Traditional architecture focused on controlling change through:
@@ -206,7 +206,8 @@ Modern architects instead enable success through:
 
 ## VI. The Modern Architect: Beyond the Blueprint
 
-**From Dictating Designs to Facilitating Growth**  
+### From Dictating Designs to Facilitating Growth
+
 The traditional “master builder” approach positioned architects as the sole authority—handing down designs and ensuring compliance. Modern enterprise architecture, however, demands the mindset of an **urban planner**: someone who lays out guiding principles, fosters a shared vision, and enables diverse teams to shape their environment in a coherent, forward-looking way.
 
 ### Building Consensus vs. Enforcing Standards
