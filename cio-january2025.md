@@ -151,7 +151,7 @@ Progressive cities designate innovation districts where new ideas can be tested 
 
 ## V. The New Architect Mindset
 
-Today's enterprise architect must shift from being the "master builder" to becoming the "city planner" who orchestrates sustainable growth. This requires new competencies and approaches:
+An architect’s mindset should evolve from the authoritarian 'Great and Powerful Oz,' who instills fear and questions the courage, heart, and intelligence of others, to one that mirrors Alice’s journey—guided by curiosity and self-discovery—encouraging teams to believe in the impossible and empowering them to achieve it. Today's enterprise architect must shift from being the "all powerful master builder" to becoming the "city planner" who orchestrates sustainable growth. This requires new competencies and approaches:
 
 ### From Control to Enablement
 Traditional architecture focused on controlling change through:
