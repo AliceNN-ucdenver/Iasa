@@ -17,13 +17,13 @@ Imagine having to build a city with just raw building materials - steel beams, c
 
 It's as if we're asking every developer to get a master's degree in infrastructure before they can make simple changes to their applications. We hand them raw materials and expect them to build cathedrals, while simultaneously maintaining deep expertise across an ever-expanding set of foundational technologies.
 
-Now imagine instead having access to pre-approved building templates, standardized utility connections for any commidty service, and clear zoning guidelines that enable rapid, reliable construction while ensuring neighborhood cohesion. This is the promise of modern enterprise architecture - providing higher-level building blocks that enable innovation and rapid business reconfiguration while maintaining system integrity. Rather than forcing every team to become infrastructure experts, we create platforms and patterns that abstract away complexity while ensuring quality and consistency. By offering higher-level abstractions—platforms, patterns, guardrails—enterprise architects reduce toil, preserve quality, and accelerate product delivery.
+Now imagine instead having access to pre-approved building templates, standardized utility connections for any commodity service, and clear zoning guidelines that enable rapid, reliable construction while ensuring neighborhood cohesion. This is the promise of modern enterprise architecture - providing higher-level building blocks that enable innovation and rapid business reconfiguration while maintaining system integrity. Rather than forcing every team to become infrastructure experts, we create platforms and patterns that abstract away complexity while ensuring quality and consistency. By offering higher-level abstractions—platforms, patterns, guardrails—enterprise architects reduce toil, preserve quality, and accelerate product delivery.
 
 ## Creating a Common Language
 
 Just as urban planners needed to develop a shared vocabulary with city officials, developers, and citizens, enterprise architects must establish a common language that bridges technical and business domains. Complex ideas that remain purely verbal often get lost or misunderstood. Documentation and diagrams transform abstract discussions into something tangible. By articulating fitness functions - automated tests tied to specific quality attributes like Reliability, Security, or Performance — teams can visualize and measure system qualities that align with business goals.
 
-Wikipedia defines a software architect as "a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms." But this definition misses the essence of modern enterprise architecture. If we were going to amend this definition it would include that an architect addresses many concerns, enables integration (integration issues are often where architects focus much of their attention) and ensure the evolvability of a system.  The architect often provides and is the custodian of an architecture vision for a product - which supports a a continual and incremental change as a first principles amount multiple dimensions.
+Wikipedia defines a software architect as "a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms." But this definition misses the essence of modern enterprise architecture. If we were going to amend this definition it would include that an architect addresses many concerns, enables integration (integration issues are often where architects focus much of their attention) and ensure the evolvability of a system.  The architect often provides and is the custodian of an architecture vision for a product - which supports a a continual and incremental change as a first principles among multiple dimensions.
 
 Most importantly, architects make difficult problems manageable. They achieve this through models, patterns, and peer review - taking complex challenges and breaking them down into understandable components that stakeholders can grasp and discuss. When you take time to put ideas on paper using language everyone understands, you enable meaningful participation in critical decisions.
 
@@ -218,9 +218,9 @@ Early architectural models often relied on rigid standards and top-down governan
 - **Guiding Principles**: Setting clear guardrails rather than voluminous rulebooks—allowing autonomy within well-defined boundaries.  
 - **Contextual Standards**: Encouraging best practices that adapt to different project needs rather than a one-size-fits-all checklist.
 
-### Embracing the IASA Competency Models
+### Embracing the International Association of Software Architects (IASA) Competency Models
 
-The **IASA (International Association of Software Architects)** defines key competencies that today’s architects must cultivate to thrive in a complex, rapidly evolving environment:
+**IASA** defines key competencies that today’s architects must cultivate to thrive in a complex, rapidly evolving environment:
 
 1. **Agility in Practice**  
    - Recognize that technology landscapes shift quickly.  
@@ -290,8 +290,8 @@ Our dashboard tracks three critical dimensions across the state, helping identif
 #### 3. Mature DevSecOps Practices and Remove Toil 
 *Like measuring modernization of city services*
 - Risk Management
-  * CAP Slippage Rate (15%)
-  * KRI Composite Score (95%)
+  * Corrective Action Plan (CAP) Slippage Rate (15%)
+  * Key Risk Indicator (KRI) Composite Score (95%)
 - Modernization Progress
   * Apps in Target State (99%)
   * Cloud Migration (55%)
