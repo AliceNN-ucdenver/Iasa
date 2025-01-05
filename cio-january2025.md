@@ -250,7 +250,7 @@ An architect’s mindset should evolve from the authoritarian 'Great and Powerfu
 | **Knowledge Sharing** | - Formal documentation<br>- Required sign-offs<br>- Static guidelines<br>- Limited access | - Living platforms<br>- Shared practices<br>- Dynamic patterns<br>- Open access | - Faster learning<br>- Better reuse<br>- Reduced duplication<br>- Greater innovation |
 | **Technology Focus** | - Technology first<br>- Standard stacks<br>- Controlled change<br>- Risk mitigation | - Business value first<br>- Flexible platforms<br>- Continuous evolution<br>- Opportunity enablement | - Better business alignment<br>- Increased agility<br>- Faster innovation<br>- Greater value delivery |
 
-## #Key Mindset Shifts in Practice
+### Key Mindset Shifts in Practice
 
 #### 1. From Control to Enablement
 Traditional Practice | Modern Practice | Value Created
