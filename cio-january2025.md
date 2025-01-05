@@ -280,15 +280,30 @@ Progressive cities designate innovation districts where new ideas can be tested 
 
 A key element of evolutionary architecture is the use of fitness functions—automated checks that continuously validate architecture against desired qualities. These align directly with ISO 25010, which defines critical software quality attributes:
 
-- Functional Suitability: Completeness, correctness, appropriateness
-- Performance Efficiency: Time behavior, resource utilization, capacity
-- Compatibility: Interoperability, coexistence
-- Usability: Learnability, operability, accessibility
-- Reliability: Maturity, fault tolerance, recoverability
-- Security: Confidentiality, integrity, authenticity
-- Maintainability: Modularity, reusability, testability
-- Portability: Adaptability, installability, replaceability
-
+```mermaid
+mindmap
+    root((Quality Attributes))
+        Functional Suitability
+            Completeness
+            Correctness
+            Appropriateness
+        Performance
+            Time Behavior
+            Resource Usage
+            Capacity
+        Security
+            Confidentiality
+            Integrity
+            Authenticity
+        Reliability
+            Maturity
+            Fault Tolerance
+            Recoverability
+        Maintainability
+            Modularity
+            Reusability
+            Testability
+```
 > Example: A Performance Efficiency fitness function might continuously measure response times under peak load. A Reliability fitness function might monitor redundancy and failover mechanisms. These automated tests—built into your CI/CD pipeline—prevent regressions, drive continuous improvement, and provide real-time insights into portfolio health.
 
 ## V. The New Architect Mindset: From Oz to Alice
