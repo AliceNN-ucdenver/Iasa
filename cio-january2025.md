@@ -5,6 +5,34 @@
 For CIOs leading enterprise transformations, portfolio health isn’t just an operational indicator—it’s a real-time pulse on time-to-market and resilience in a digital-first economy. Understanding and tracking the right software delivery metrics is essential to inform strategic decisions that drive continuous improvement. In today's digital-first economy, enterprise architecture must also evolve from a control function to an enablement platform. This transformation requires a fundamental shift in how we approach technology delivery—moving from project-based thinking to product-oriented architecture.
 
 The stakes have never been higher. In today's digital economy, business objectives like "becoming a leading global wealth management firm" or "being a premier destination for top talent" demand more than just technical excellence. They require a fundamental reimagining of how we approach enterprise architecture and technology delivery.
+```mermaid
+flowchart LR
+    subgraph Today[Current State]
+        T1[Project Focus]
+        T2[Control Mindset]
+        T3[Manual Gates]
+    end
+
+    subgraph Future[Target State]
+        F1[Product Focus]
+        F2[Enablement Mindset]
+        F3[Automated Guardrails]
+    end
+
+    subgraph Pillars[Four Pillars]
+        P1[Business Value]
+        P2[Technical Foundation]
+        P3[DevSecOps Maturity]
+        P4[Engineering Community]
+    end
+
+    Today --> Pillars
+    Pillars --> Future
+
+    style Today fill:#ffcdd2,stroke:#e57373
+    style Future fill:#c8e6c9,stroke:#81c784
+    style Pillars fill:#bbdefb,stroke:#64b5f6
+```
 
 Key Takeaways:
 * Traditional architecture approaches focused on control and standards are failing to meet modern business needs
@@ -39,6 +67,34 @@ Organizations clinging to traditional architecture approaches face:
 ## The Evolution of Enterprise Architecture
 
 Modern enterprise architecture requires thinking like an urban planner rather than a building inspector. This means creating environments that enable innovation while ensuring system integrity and sustainability.
+
+```mermaid
+flowchart TD
+    subgraph Past[Traditional Architecture]
+        P1[Design Reviews]
+        P2[Standards]
+        P3[Governance]
+    end
+
+    subgraph Present[Transition State]
+        T1[Patterns]
+        T2[Platforms]
+        T3[Guidelines]
+    end
+
+    subgraph Future[Modern Architecture]
+        F1[Enablement]
+        F2[Automation]
+        F3[Innovation]
+    end
+
+    Past --> Present
+    Present --> Future
+
+    style Past fill:#ffcdd2,stroke:#e57373
+    style Present fill:#fff9c4,stroke:#ffd54f
+    style Future fill:#c8e6c9,stroke:#81c784
+```
 
 ### From Building Inspector to Urban Planner
 Traditional Approach | Modern Approach
