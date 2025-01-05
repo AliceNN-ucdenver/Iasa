@@ -235,22 +235,46 @@ A key element of evolutionary architecture is the use of fitness functions—aut
 
 > Example: A Performance Efficiency fitness function might continuously measure response times under peak load. A Reliability fitness function might monitor redundancy and failover mechanisms. These automated tests—built into your CI/CD pipeline—prevent regressions, drive continuous improvement, and provide real-time insights into portfolio health.
 
-## V. The New Architect Mindset
+## V. The New Architect Mindset: From Oz to Alice
 
 An architect’s mindset should evolve from the authoritarian 'Great and Powerful Oz,' who instills fear and questions the courage, heart, and intelligence of others, to one that mirrors Alice’s journey—guided by curiosity and self-discovery—encouraging teams to believe in the impossible and empowering them to achieve it. Today's enterprise architect must encourage teams to take risks, learn continuously, and drive transformational change. This requires new competencies and approaches:
 
-### From Control to Enablement
-Traditional architecture focused on controlling change through:
-- Detailed design reviews
-- Rigid standards enforcement
-- Centralized decision-making
-- Comprehensive documentation requirements
+### The Transformation of Architecture Leadership
 
-Modern architects instead enable success through:
-- Pattern identification and sharing
-- Platform creation that makes "doing the right thing" easy
-- Guidance and education rather than enforcement
-- Automated guardrails rather than manual gates
+| Aspect | Traditional Mindset ("Oz") | Modern Mindset ("Alice") | Business Impact |
+|--------|---------------------------|-------------------------|-----------------|
+| **Leadership Style** | - Authoritarian control<br>- Command and direct<br>- Fear-based compliance<br>- Centralized authority | - Curiosity-driven<br>- Guide and enable<br>- Trust-based collaboration<br>- Distributed leadership | - Increased innovation<br>- Better team engagement<br>- Faster decision-making<br>- Improved adaptability |
+| **Decision Making** | - Unilateral decisions<br>- Rigid standards<br>- Detailed review gates<br>- Risk avoidance | - Collaborative choices<br>- Flexible guidelines<br>- Automated guardrails<br>- Managed risk-taking | - Faster time to market<br>- Higher quality solutions<br>- Reduced bottlenecks<br>- Greater innovation |
+| **Team Interaction** | - Formal reviews<br>- Documentation heavy<br>- Approval-based<br>- Distance from teams | - Regular engagement<br>- Living documentation<br>- Enablement-focused<br>- Embedded with teams | - Better collaboration<br>- Clearer communication<br>- Stronger alignment<br>- Improved productivity |
+| **Quality Approach** | - Rigid standards enforcement<br>- Manual quality gates<br>- Compliance checklists<br>- Post-facto reviews | - Automated quality checks<br>- Built-in guardrails<br>- Continuous validation<br>- Preventive guidance | - Higher quality<br>- Faster delivery<br>- Reduced defects<br>- Better compliance |
+| **Knowledge Sharing** | - Formal documentation<br>- Required sign-offs<br>- Static guidelines<br>- Limited access | - Living platforms<br>- Shared practices<br>- Dynamic patterns<br>- Open access | - Faster learning<br>- Better reuse<br>- Reduced duplication<br>- Greater innovation |
+| **Technology Focus** | - Technology first<br>- Standard stacks<br>- Controlled change<br>- Risk mitigation | - Business value first<br>- Flexible platforms<br>- Continuous evolution<br>- Opportunity enablement | - Better business alignment<br>- Increased agility<br>- Faster innovation<br>- Greater value delivery |
+
+## #Key Mindset Shifts in Practice
+
+#### 1. From Control to Enablement
+Traditional Practice | Modern Practice | Value Created
+--------------------|-----------------|---------------
+Detailed design reviews | Pattern libraries and examples | Faster solution design
+Manual approvals | Automated guardrails | Reduced bottlenecks
+Standard technology stack | Approved technology options | Enhanced innovation
+Centralized decisions | Guided decision frameworks | Better outcomes
+
+#### 2. From Documentation to Automation
+Traditional Practice | Modern Practice | Value Created
+--------------------|-----------------|---------------
+Comprehensive documents | Living documentation | Better knowledge sharing
+Manual checklists | Automated verification | Faster compliance
+Review meetings | Self-service tools | Increased productivity
+Written standards | Automated checks | Consistent quality
+
+#### 3. From Projects to Products
+Traditional Practice | Modern Practice | Value Created
+--------------------|-----------------|---------------
+Project deadlines | Continuous delivery | Faster time to market
+Fixed requirements | Evolutionary design | Better market fit
+One-time delivery | Ongoing enhancement | Sustained value
+Handoff to operations | Shared responsibility | Improved quality
 
 ### Key Questions for Modern Architects
 - Are teams measuring how well their systems meet defined business outcomes?
