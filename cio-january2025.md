@@ -277,41 +277,13 @@ Early architectural models often relied on rigid standards and top-down governan
 
 The International Association of Software Architects (IASA) defines five key pillars of architectural competency that modern architects must master:
 
-1. **Business Technology Strategy**
-   - Align technology decisions with business objectives
-   - Drive innovation and digital transformation
-   - Manage IT investment portfolios and ROI
-   - Navigate industry trends and market dynamics
-   - Develop and communicate technology vision
-
-2. **Human Dynamics**
-   - Lead and influence across organizational boundaries
-   - Foster inclusive communication and collaboration
-   - Build high-performing architecture teams
-   - Manage stakeholder relationships effectively
-   - Avoid the **"Wicked Witch"** archetype of instilling fear and compliance
-   - Practice empathetic leadership and mentorship
-
-3. **Quality Attributes**
-   - Design for critical system characteristics (performance, security, scalability)
-   - Balance competing quality requirements
-   - Implement measurable quality assessment
-   - Establish architectural fitness functions
-   - Create frameworks for continuous quality evaluation
-
-4. **IT Environment**
-   - Understand enterprise-wide technology ecosystem
-   - Navigate cloud and infrastructure landscapes
-   - Manage technical debt and modernization
-   - Ensure security and compliance
-   - Optimize platform and infrastructure choices
-
-5. **Design Skills**
-   - Apply patterns and anti-patterns effectively
-   - Make architectural decisions with clear rationale
-   - Model complex systems and interactions
-   - Practice continuous architectural refinement
-   - Balance immediate needs with long-term vision
+| Competency Area | Key Skills | Primary Activities | Success Indicators | Business Impact |
+|----------------|------------|-------------------|-------------------|-----------------|
+| **Business Technology Strategy** | - Strategic planning<br>- Innovation management<br>- Portfolio optimization<br>- Market analysis<br>- Investment ROI | - Align technology with business goals<br>- Drive digital transformation<br>- Develop technology roadmaps<br>- Guide investment decisions<br>- Identify emerging trends | - Strategic alignment score<br>- Innovation adoption rate<br>- Portfolio performance<br>- Investment efficiency<br>- Market responsiveness | - Competitive advantage<br>- Business agility<br>- Investment optimization<br>- Market leadership<br>- Innovation capacity |
+| **Human Dynamics** | - Leadership<br>- Communication<br>- Collaboration<br>- Influence<br>- Mentorship | - Lead cross-functional teams<br>- Build consensus<br>- Manage stakeholders<br>- Foster inclusive culture<br>- Develop talent | - Team effectiveness<br>- Stakeholder satisfaction<br>- Cultural health metrics<br>- Knowledge sharing<br>- Talent retention | - Enhanced productivity<br>- Better engagement<br>- Stronger culture<br>- Talent attraction<br>- Reduced turnover |
+| **Quality Attributes** | - Performance engineering<br>- Security architecture<br>- Scalability design<br>- Reliability engineering<br>- Maintainability | - Define quality requirements<br>- Design for resilience<br>- Implement measurements<br>- Balance trade-offs<br>- Create fitness functions | - System performance<br>- Security posture<br>- Scalability metrics<br>- Reliability scores<br>- Maintainability index | - Customer satisfaction<br>- Risk reduction<br>- Cost efficiency<br>- Service reliability<br>- System longevity |
+| **IT Environment** | - Cloud architecture<br>- Infrastructure design<br>- Integration patterns<br>- Security compliance<br>- Platform strategy | - Design technology ecosystem<br>- Manage technical debt<br>- Ensure compliance<br>- Optimize platforms<br>- Guide modernization | - Platform health<br>- Integration success<br>- Compliance status<br>- Modernization progress<br>- Technical debt reduction | - Operational efficiency<br>- Cost optimization<br>- Risk management<br>- Innovation enablement<br>- System flexibility |
+| **Design Skills** | - Pattern application<br>- System modeling<br>- Decision frameworks<br>- Architecture evaluation<br>- Solution design | - Create reference architectures<br>- Apply design patterns<br>- Make architectural decisions<br>- Model complex systems<br>- Evaluate solutions | - Design effectiveness<br>- Pattern reuse rate<br>- Decision quality<br>- Model accuracy<br>- Solution fitness | - Solution quality<br>- Development speed<br>- System coherence<br>- Innovation capability<br>- Maintenance efficiency |
 
 Each competency area requires both depth and breadth, developing what IASA calls "T-shaped" skills - deep expertise in some areas combined with broad knowledge across many domains. This comprehensive model helps architects become true enablers of organizational success.
 
