@@ -67,7 +67,7 @@ The program creates structured pathways for junior architects through academic p
 
 #### Career Advantages
 - Structured entry into architecture profession
-- Industry-recognized certifications (CITA-F, CITA-A)
+- Industry-recognized certification (CITA-F)
 - Early career differentiation
 - Higher starting salary potential
 - Global opportunity access
