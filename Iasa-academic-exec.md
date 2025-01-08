@@ -1,7 +1,7 @@
 # IASA Academic Program: Executive Summary
 
 ## Vision
-Transform IT architecture education by creating a structured academic pathway that bridges university education with industry practice, establishing the foundation for junior architect development through formal academic credentials.
+Transform IT architecture education by creating a structured academic pathway that bridges university education with industry practice, establishing the foundation for junior architect development through formal academic credentials aligned with IASA's Foundation (CITA-F) certification.
 
 ## Value Proposition
 - First comprehensive academic pathway for junior architects
@@ -31,21 +31,21 @@ mindmap
                 Documentation
                 Modeling
         Software Architecture II
-            Advanced Architecture
-                Enterprise Framework
-                Governance
-                Portfolio Management
-            Complex Systems
-                Distributed Systems
-                Integration
-                Security
-            Solution Design
-                Microservices
-                Event-Driven
-                Domain-Driven
-            Leadership
-                Change Management
-                Team Leadership
+            Applied Architecture
+                Quality Attributes
+                Architecture Patterns
+                Design Methods
+            Enterprise Context
+                Business Alignment
+                Stakeholder Management
+                Value Delivery
+            Solution Focus
+                Architecture Analysis
+                Technology Selection
+                Implementation Planning
+            Professional Practice
+                Ethics & Standards
+                Team Collaboration
                 Communication
 ```
 
@@ -64,30 +64,30 @@ graph LR
         SA2[Software Architecture II]
         CP[Capstone Project]
     end
-
+    
     subgraph Certification["IASA Certification"]
         CITAF[CITA-F]
-        CITAA[CITA-A]
     end
-
+    
     subgraph Industry["Industry Integration"]
         ATLAS[ATLAS Program]
         IP[Industry Partners]
     end
-
+    
     SA1 --> SA2
     SA2 --> CP
     SA1 -.-> CITAF
-    SA2 -.-> CITAA
+    SA2 -.-> CITAF
     CP --> ATLAS
     ATLAS --> IP
-
+    
     style University fill:#4a90e2,color:white
     style Certification fill:#50c878,color:white
     style Industry fill:#9b59b6,color:white
 ```
+
 1. **Academic Integration**
-   - Two-course sequence aligned with CITA-F and CITA-A
+   - Two-course sequence aligned with CITA-F
    - Integration with CS/IT programs
    - Standardized curriculum and materials
    - Faculty development program
@@ -99,8 +99,8 @@ graph LR
    - Capstone projects
 
 3. **Certification Path**
-   - Academic CITA-F alignment
-   - Professional certification preparation
+   - Comprehensive CITA-F preparation
+   - Professional certification readiness
    - Continuous learning pathway
    - Industry recognition
 
