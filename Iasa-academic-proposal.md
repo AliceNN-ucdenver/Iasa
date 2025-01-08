@@ -1,26 +1,22 @@
 # IASA Global Architecture Academic Program
 ## Board of Directors Proposal - 2025 Strategic Initiative
 
----
 ## Table of Contents
-
 1. Executive Summary
 2. Strategic Vision
 3. Market Analysis
 4. Program Structure
 5. Implementation Plan
-6. Financial Overview
-7. Risk Analysis
-8. Governance
-9. Success Metrics
-10. Resource Requirements
-11. Next Steps
-12. Detailed Appendices
+6. Risk Analysis
+7. Governance
+8. Success Metrics
+9. Resource Requirements
+10. Next Steps
+11. Appendices
 
----
 ## 1. Executive Summary
 
-IASA Global has the opportunity to transform the IT architecture profession through the industry's first comprehensive academic pathway for developing junior architects. This program directly addresses the critical challenge of top-heavy architecture teams while expanding IASA's influence in academic institutions globally.
+IASA Global has the opportunity to transform the IT architecture profession through the industry's first comprehensive academic pathway for developing junior architects. This program introduces architecture concepts earlier in careers through a structured two-course sequence aligned with IASA's Foundation (CITA-F) certification.
 
 ### Key Outcomes (5-Year Targets)
 - 25+ university partnerships globally
@@ -31,12 +27,11 @@ IASA Global has the opportunity to transform the IT architecture profession thro
 
 ### Strategic Value
 - Creates structured entry path for junior architects
-- Expands IASA certification reach
+- Expands IASA certification reach through academic integration
 - Establishes global academic partnerships
 - Reduces industry costs through earlier architecture adoption
-- Generates new revenue streams through academic programs
+- Supports IASA's educational mission
 
----
 ## 2. Strategic Vision
 
 ### Mission Statement
@@ -50,12 +45,11 @@ The IT architecture profession currently faces three critical issues:
 
 ### Solution
 Create structured academic pathway through:
-- Two-course sequence aligned with CITA-F and CITA-A
+- Two-course sequence fully aligned with CITA-F competencies
 - Integration with university computer science programs
 - Industry-aligned practical experience
-- Clear certification pathway
+- Clear foundation certification pathway
 
----
 ## 3. Market Analysis
 
 ### Current State
@@ -68,24 +62,23 @@ Create structured academic pathway through:
 ### Market Opportunity
 - Growing demand for architecture skills
 - Universities seeking industry partnerships
-- Students seeking career pathways
+- Students seeking clear career pathways
 - Organizations needing cost-effective solutions
 - Industry requiring standardized training
 
 ### Competitive Advantage
-- IASA's established certification framework
+- IASA's established CITA-F certification framework
 - Existing industry partnerships
 - Comprehensive body of knowledge
 - Global reach and reputation
 - Proven training methodology
 
----
 ## 4. Program Structure
 
 ### Core Curriculum
 
-#### Software Architecture I (CITA-F Aligned)
-1. **Introduction to Software Architecture**
+#### Software Architecture I: Foundations
+1. **Introduction to Architecture**
    - Role of the architect
    - Architecture in SDLC
    - IASA framework introduction
@@ -103,68 +96,31 @@ Create structured academic pathway through:
    - Integration principles
    - Security fundamentals
 
-4. **Quality Attributes**
-   - Non-functional requirements
-   - Performance basics
-   - Reliability concepts
-   - Security principles
+#### Software Architecture II: Application
+1. **Applied Architecture**
+   - Quality Attributes
+   - Architecture Patterns
+   - Design Methods
+   - Implementation Planning
 
-5. **Design Fundamentals**
-   - Basic patterns
-   - Architecture styles
+2. **Enterprise Context**
+   - Business Alignment
+   - Stakeholder Management
+   - Value Delivery
+   - Technology Selection
+
+3. **Professional Practice**
+   - Ethics & Standards
+   - Team Collaboration
+   - Communication
    - Documentation
-   - Modeling techniques
 
-6. **Human Dynamics**
-   - Communication skills
-   - Team collaboration
-   - Stakeholder management
-   - Presentations
-
-#### Software Architecture II (CITA-A Aligned)
-1. **Advanced Architecture**
-   - Enterprise frameworks
-   - Governance
-   - Portfolio management
-   - Evaluation methods
-
-2. **Advanced Strategy**
-   - Digital transformation
-   - Innovation management
-   - Strategic planning
-   - Business alignment
-
-3. **Complex Environments**
-   - Distributed systems
-   - Advanced cloud
-   - Integration patterns
-   - Security architecture
-
-4. **Quality Engineering**
-   - Performance engineering
-   - Scalability patterns
-   - Security patterns
-   - Trade-off analysis
-
-5. **Solution Design**
-   - Microservices
-   - Event-driven architecture
-   - Domain-driven design
-   - Advanced patterns
-
-6. **Leadership**
-   - Change management
-   - Conflict resolution
-   - Team leadership
-   - Strategic communication
-
-### Integration Opportunities
+### Integration Components
 - Capstone projects
 - Industry internships
-- Mentorship programs
-- Research projects
+- CITA-F preparation
+- Professional mentorship
 
----
 ## 5. Implementation Plan
 
 ```mermaid
@@ -175,7 +131,7 @@ gantt
     section Program Development
     IASA Framework Alignment     :2025-01-01, 2025-02-28
     Curriculum Development      :2025-01-15, 2025-03-31
-    Certification Integration   :2025-02-01, 2025-04-30
+    CITA-F Integration         :2025-02-01, 2025-04-30
     
     section University Engagement
     Partnership Development     :2025-03-01, 2025-05-31
@@ -185,11 +141,10 @@ gantt
     section Industry Integration
     Partner Program Development :2025-05-01, 2025-07-15
     Mentorship Framework       :2025-05-15, 2025-07-31
-    Internship Program         :2025-06-01, 2025-07-31
     
-    section Launch Preparation
-    Final Alignment Review     :2025-07-01, 2025-07-31
-    University Onboarding      :2025-07-15, 2025-08-14
+    section Launch
+    Final Review              :2025-07-01, 2025-07-31
+    University Onboarding     :2025-07-15, 2025-08-14
     Program Launch            :milestone, 2025-08-15, 2025-08-15
 ```
 
@@ -219,43 +174,27 @@ gantt
 - Support activation
 - Monitoring implementation
 
----
-## 6. Financial Overview
+## 6. Risk Analysis
 
-### Revenue Streams
-1. University Partnership Fees
-2. Student Certification Revenue
-3. Training Materials Licensing
-4. Faculty Development Programs
-
-### Investment Requirements
-1. Program Development: [Amount]
-2. Infrastructure: [Amount]
-3. Staff Resources: [Amount]
-4. Marketing & Outreach: [Amount]
-
-### 5-Year Projection
-[Financial projection table to be inserted based on IASA financial models]
-
----
-## 7. Risk Analysis
-
-### Key Risks and Mitigation
+### Key Risks and Mitigation Strategies
 
 #### Academic Adoption
 - **Risk**: Universities resist new program
-- **Mitigation**: Strong value proposition, flexible implementation
+- **Mitigation**: Strong value proposition, flexible implementation model, proven outcomes
 
 #### Quality Control
 - **Risk**: Inconsistent program delivery
-- **Mitigation**: Strict standards, regular reviews
+- **Mitigation**: Standardized materials, faculty training, regular quality reviews
+
+#### Resource Constraints
+- **Risk**: Limited resources for implementation
+- **Mitigation**: Phased approach, leverage existing materials, strategic partnerships
 
 #### Market Acceptance
 - **Risk**: Industry hesitation
-- **Mitigation**: Early partner engagement, success metrics
+- **Mitigation**: Early partner engagement, success metrics, pilot programs
 
----
-## 8. Governance
+## 7. Governance
 
 ### Program Leadership
 
@@ -274,30 +213,37 @@ CEO and Founder, IASA Global
 - Industry Advisory Board
 - Program Management Office
 
----
-## 9. Success Metrics
+### Responsibilities
+- Strategic direction
+- Quality oversight
+- Partnership management
+- Program evolution
+- Success tracking
+
+## 8. Success Metrics
+
+### Program Effectiveness
+1. CITA-F certification pass rates
+2. Employment rates
+3. University adoption
+4. Student satisfaction
+5. Industry feedback
+
+### Community Impact
+1. Professional community growth
+2. Knowledge sharing
+3. Industry standards adoption
+4. Research contributions
+5. Global reach
 
 ### Key Performance Indicators
-1. **Academic Success**
-   - Certification pass rates
-   - Course completion rates
-   - Student satisfaction
-   - Faculty effectiveness
+- Number of university partnerships
+- Student enrollment rates
+- Certification success rates
+- Graduate placement rates
+- Industry partner satisfaction
 
-2. **Market Impact**
-   - Graduate employment rates
-   - Industry partner satisfaction
-   - Architecture cost reduction
-   - Market adoption rates
-
-3. **Financial Performance**
-   - Revenue to sustain growth
-   - Program sustainability
-   - Partner institution ROI
-   - Market share growth
-
----
-## 10. Resource Requirements
+## 9. Resource Requirements
 
 ### Immediate Needs
 1. Program Director (Shawn McCarthy)
@@ -305,14 +251,19 @@ CEO and Founder, IASA Global
 3. Leverage existing IASA certification materials
 4. Utilize IASA technical infrastructure
 
-### Ongoing Support
-1. Faculty Support
-2. Quality Assurance
-3. Industry Liaison
-4. Administrative Support
+### Support Structure
+1. Faculty development program
+2. Quality assurance framework
+3. Industry liaison network
+4. Administrative support
 
----
-## 11. Next Steps
+### Technology Infrastructure
+- Learning management system
+- Assessment tools
+- Collaboration platforms
+- Resource repositories
+
+## 10. Next Steps
 
 ### Board Decisions Required
 1. Program approval and funding (One resource)
@@ -326,45 +277,92 @@ CEO and Founder, IASA Global
 3. Curriculum development start
 4. Infrastructure setup
 
----
-## 12. Appendices
+## 11. Appendices
 
-### A. Detailed Financial Projections
-[Comprehensive financial models and projections]
-1. Work with finance team to develop detailed models
-2. Create revenue projections based on market analysis
-3. Develop cost structure with resource requirements
-4. Build ROI models for different scenarios
+### Appendix A: Financial Models
+1. **Program Sustainability Model**
+   - University partnership structure
+   - Certification program costs
+   - Resource allocation model
+   - Operational costs
+   - Growth projections
 
-### B. University Partnership Framework
-[Partnership structure and agreements]
-1. Develop detailed partnership agreement templates
-2. Create implementation guides
-3. Define support structure requirements
-4. Establish quality standards
+2. **Investment Requirements**
+   - Initial setup costs
+   - Ongoing operational costs
+   - Resource requirements
+   - Marketing and outreach
 
-### C. Detailed Curriculum Overview
-[Complete course content and materials]
-1. Finalize alignment with CITA-F/A
-2. Develop detailed lesson plans
-3. Create assessment materials
-4. Design practical exercises
+3. **Partnership Economics**
+   - University revenue sharing model
+   - Industry partner structure
+   - Resource sharing agreements
+   - Support costs
 
-### D. Faculty Development Program
-[Training and support framework]
-1. Design certification pathway
-2. Develop training materials
-3. Create support systems
-4. Establish quality metrics
+### Appendix B: University Partnership Framework
+1. **Partnership Levels**
+   - Full program implementation
+   - Partial program integration
+   - Certificate program options
+   - Research collaboration
 
-### E. Quality Assurance Framework
-[Standards and monitoring processes]
-1. Define detailed standards
-2. Create assessment tools
-3. Develop monitoring systems
-4. Establish review processes
+2. **Implementation Requirements**
+   - Faculty qualifications
+   - Infrastructure needs
+   - Resource commitments
+   - Quality standards
 
----
+3. **Support Structure**
+   - IASA technical support
+   - Faculty development
+   - Certification integration
+   - Continuous improvement
+
+### Appendix C: Curriculum Framework
+1. **Software Architecture I: Foundations**
+   - Detailed module descriptions
+   - Learning objectives
+   - Assessment criteria
+   - CITA-F alignment mapping
+
+2. **Software Architecture II: Application**
+   - Advanced module details
+   - Practical applications
+   - Project frameworks
+   - Industry integration
+
+3. **Integration Components**
+   - Capstone project structure
+   - Internship framework
+   - Mentorship program
+   - Assessment methods
+
+### Appendix D: Faculty Development
+1. **Certification Program**
+   - CITA-F requirement
+   - Teaching methodology
+   - Assessment techniques
+   - Continuous development
+
+2. **Training Components**
+   - Online modules
+   - Workshop structure
+   - Practical exercises
+   - Resource materials
+
+### Appendix E: Quality Assurance
+1. **Program Standards**
+   - Curriculum alignment
+   - Teaching quality
+   - Student performance
+   - Industry relevance
+
+2. **Assessment Framework**
+   - Student evaluation
+   - Faculty performance
+   - Program effectiveness
+   - Partner feedback
+
 ## Contact Information
 
 **Program Sponsor:**
