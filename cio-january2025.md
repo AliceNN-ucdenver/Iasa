@@ -36,13 +36,14 @@ flowchart LR
 
 Key Takeaways:
 * Traditional architecture approaches focused on control and standards are failing to meet modern business needs
-* Successful transformation requires a shift from "master builder" to "urban planner" mindset
+* Successful transformation requires a shift from "master builder" to "urban planner" mindset and then translated into self-sustainable entities
 * Four critical pillars drive success: business value delivery, technical foundation, DevSecOps maturity, and thirving engineering community
 * Measuring portfolio health through clear metrics enables data-driven decision making
 * Cultural transformation and talent development are as crucial as technical excellence
 
 Expected Benefits:
 * Faster time to market for new initiatives
+* Small teams focused on well-defined outcomes
 * Reduction in system incidents
 * Improvement in developer productivity
 * Enhanced ability to attract and retain top talent
@@ -61,7 +62,7 @@ Organizations clinging to traditional architecture approaches face:
 * Increasing system complexity
 * Rising operational costs
 * Difficulty attracting talent
-* Slower time to market
+* Slower time to market impacting competitive advantages
 * Reduced competitive advantage
 
 ## The Evolution of Enterprise Architecture
@@ -160,7 +161,11 @@ flowchart TD
     style BA fill:#ffebee,stroke:#ef5350
 ```
 
-[TO BE DRAFTED BY CIO]
+In an environment where you need to balance the company vision and strategic plan with delivering near-term value but also having a stable and sustainable technology ecosystem, evolving Enterprise Architecture is key.  Technology capabilities need to be able to support the delivery of strategic business OKRs.  Understanding opportunities and limitations of existing platforms and capabilities informs the city plan to prioritize investments for the growth needed.
+
+Technology governance alone will often just inform you of capability gaps, tech debt and duplication – this could be too late!  A shift for Enterprise Architects to focus on Business Enablement is required.  This is much more pro-active in understanding both the business objectives but also planning and mapping the path for delivery.
+
+Moving to product-based delivery is a significant cultural change.  The delivery of outcomes will depend on evolving the capabilities of multiple products.  Work is no longer expressed as initiatives and funding directly supports outcomes.  Translating those outcomes into features and the corresponding technology implications allows delivery teams to have focus.  
 
 Key areas to address:
 - Alignment between technology capabilities and strategic business OKRs
@@ -173,7 +178,6 @@ Key areas to address:
 - Innovation enablement strategies
 
 Just as a city's master plan must align with its economic and social goals, our technical strategy must directly support business objectives. This alignment sets the stage for how we execute our transformation. When tied directly to strategic objectives, software delivery metrics become business enablers, not just technical KPIs. This alignment ensures that improvements in deployment frequency or time-to-restore-service translate into tangible business value—reduced time-to-market, better customer experiences, and stronger competitive advantage.
-
 
 ## III. The "How": Building the Modern Enterprise
 
@@ -436,11 +440,12 @@ By moving beyond rigid blueprints and embracing an urban planner ethos, the mode
   
 ## VII. Practical Implementation Guide
 
-[TO BE ENHANCED AND EXPANDED BY CIO]
+Start by establishing some guiding principles as a reference point but also helping teams through their transformation.  Teams should know good enough is acceptable and continuous improvement is encouraged.  Make the best recommendations/decisions based on the information at hand.
 
 ### Phase 1: Foundation Building
 Just as cities begin with basic infrastructure, we start with:
 - Architecture maturity assessment
+- Just enough current state knowledge
 - Business capability mapping
 - Quick win identification
 - Baseline metrics establishment
@@ -461,6 +466,7 @@ Similar to expanding successful urban development patterns:
 - Automation enhancement
 - Business integration deepening
 - Governance evolution
+- Redefining product domains as you learn/mature
 
 ## VIII. Conclusion: Building Tomorrow's Enterprise
 
