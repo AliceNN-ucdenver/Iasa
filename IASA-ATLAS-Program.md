@@ -1,7 +1,7 @@
 # Transform Your Architecture Practice
 ## IASA ATLAS Program: Building Tomorrow's Technology Leaders
 
-![IASA Logo]
+![IASA Logo](atlas-logo.png =100px)
 *An Association for All BT Architects*
 
 ## Executive Summary
@@ -9,10 +9,7 @@
 Welcome to a revolution in architect development. The IASA ATLAS (Architecture Teaching, Learning And Support) program transforms how organizations develop architectural talent through a groundbreaking approach: applying the proven teaching hospital model to technology architecture.
 
 By 2025, successful ATLAS organizations will achieve:
-- 25+ active teaching practices worldwide
-- 1000+ CITA-F certified graduates
-- 500+ junior architects placed
-- 90% graduate employment rate
+- 5+ active teaching practices worldwide
 - 30-40% reduction in architecture costs
 
 ## Table of Contents
