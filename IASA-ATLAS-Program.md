@@ -1,7 +1,7 @@
 # Transform Your Architecture Practice
 ## IASA ATLAS Program: Building Tomorrow's Technology Leaders
 
-![IASA Logo](atlas-logo.png =100px)
+![IASA Logo](atlas-logo.png)
 *An Association for All BT Architects*
 
 ## Executive Summary
