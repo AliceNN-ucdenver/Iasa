@@ -24,6 +24,7 @@ By 2025, successful ATLAS organizations will achieve:
 9. [Getting Started](#getting-started)
 
 ## The Architecture Challenge
+Every great organization needs great architects. But how do you develop them? The IASA ATLAS (Architecture Teaching, Learning And Support) program introduces a revolutionary approach: bringing the time-tested teaching hospital model to technology architecture. Through our comprehensive program and proven learning materials, we transform promising technologists into capable architects while reducing costs and improving quality.
 
 Today's organizations face critical architectural challenges:
 - Shortage of experienced architects
@@ -119,7 +120,7 @@ mindmap
 
 ## Implementation Journey
 
-Your transformation begins with a structured, proven approach:
+Your organization's path to architecture excellence through ATLAS unfolds in two strategic phases:
 
 ### Phase 1: Foundation Building (Months 1-6)
 
@@ -159,57 +160,57 @@ Create your architecture teaching hospital:
 
 ## Mentor Excellence Program
 
-The heart of ATLAS is exceptional mentorship.
+The success of ATLAS relies heavily on the quality and preparation of your mentors. Our comprehensive mentor development program ensures your senior architects are ready for this crucial role.
 
 ### Mentor Development Path
 
 #### Foundation Stage
+- BTABoK competency assessment
 - Advanced architecture practices
 - Teaching methodology fundamentals
 - Quality framework introduction
 - Basic mentorship skills
-- Program structure understanding
 
 #### Development Stage
 - Advanced teaching techniques
-- Assessment methodology mastery
+- Assessment methodology
 - Quality assurance practices
-- Program management expertise
-- Leadership development
+- Program management skills
+- Mentorship workshops
 
 #### Certification Stage
 - CITA-P certification
 - Teaching hospital model mastery
 - Quality framework certification
 - Mentorship assessment
-- Program leadership qualification
+- Program leadership preparation
 
-### Mentor Capabilities
+### Mentor Responsibilities
 
-#### Teaching Excellence
+#### Teaching and Guidance
 - Structured learning facilitation
-- Project supervision techniques
-- Knowledge transfer methods
-- Assessment expertise
-- Feedback mastery
+- Real-world project supervision
+- Knowledge transfer techniques
+- Progress assessment
+- Feedback provision
 
-#### Quality Leadership
+#### Quality Assurance
 - Work product review
 - Competency assessment
 - Performance evaluation
-- Quality metrics management
-- Process improvement
+- Quality metrics tracking
+- Continuous improvement
 
 #### Program Management
 - Learning path customization
-- Resource optimization
+- Resource allocation
 - Progress tracking
-- Stakeholder engagement
+- Stakeholder communication
 - Program evolution
 
 ## Junior Architect Development
 
-Our comprehensive 24-month program creates exceptional architects:
+Our carefully structured program builds architectural competency through three distinct phases:
 
 ### Foundation Phase (Months 1-6)
 
@@ -369,7 +370,7 @@ graph TB
 
 ## Complete Program Details
 
-### Comprehensive Materials
+### Comprehensive Learning Materials
 - Detailed course guides
 - Workshop templates
 - Case studies
@@ -377,7 +378,7 @@ graph TB
 - Practice exercises
 - Mentoring guidelines
 
-### Support Tools
+### Teaching Support Tools
 - Progress tracking systems
 - Assessment templates
 - Quality metrics dashboards
@@ -387,43 +388,46 @@ graph TB
 ## Investment and Returns
 
 ### Program Investment
-Initial investment focuses on:
 - Mentor certification
 - Implementation support
 - Infrastructure setup
 - Program materials
-- Quality framework establishment
+- Ongoing assessment
 
 ### Expected Returns
-Organizations typically achieve:
 - 30-40% cost reduction
-- Enhanced project quality
-- Accelerated architect development
-- Improved knowledge retention
-- Sustainable talent pipeline
-- Higher team satisfaction
-- Increased innovation capability
-
-### ROI Timeline
-- Initial returns: 6-9 months
-- Break-even: 12-18 months
-- Full program maturity: 24-36 months
+- Enhanced quality
+- Faster development
+- Knowledge retention
+- Sustainable pipeline
 
 ## Getting Started
 
-### Next Steps
-1. Schedule a consultation
-2. Receive custom assessment
-3. Design implementation plan
-4. Begin mentor certification
-5. Launch your transformation
+Beginning your ATLAS journey is straightforward:
 
-### Why Start Now?
-- Early adopter advantages
-- Competitive differentiation
-- Talent market leadership
-- Cost reduction benefits
-- Quality improvement gains
+1. Initial Consultation
+   - Current state assessment
+   - Goals and objectives alignment
+   - Resource evaluation
+   - Timeline planning
+
+2. Mentor Selection and Certification
+   - Identify potential mentors
+   - Begin certification process
+   - Establish teaching framework
+   - Initialize quality systems
+
+3. Program Implementation
+   - Infrastructure setup
+   - Material customization
+   - Process integration
+   - Team orientation
+
+4. Launch and Scale
+   - Pilot program initiation
+   - Quality monitoring
+   - Continuous improvement
+   - Program expansion
 
 ## Contact Us
 
