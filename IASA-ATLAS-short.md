@@ -84,8 +84,8 @@ The ATLAS program offers a strategic investment path that becomes more cost-effe
   - Program enhancements
   - Continued support
 
-**Per-Architect Development**
-- Initial Junior Architects: $3,000
+**Per-Mentor-Architect Development**
+- Initial Training Architects: $3,000
   - Complete learning materials
   - Assessment frameworks
   - Program support
