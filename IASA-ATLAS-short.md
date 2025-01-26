@@ -149,8 +149,7 @@ Whether you're beginning your architecture journey or ready to become a mentor, 
 The 24-month structured program includes:
 - Comprehensive skill development
 - CITA-F certification preparation
-- Hands-on project experience
-- Expert mentorship
+- Hands-on project experience, on the job
 Investment: $500.00 per architect
 
 ### Mentor Certification
