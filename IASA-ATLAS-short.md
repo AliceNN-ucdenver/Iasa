@@ -66,14 +66,32 @@ This 40% cost reduction comes from:
 ### The Journey
 Organizations joining ATLAS transform their architecture practice through a structured implementation process. The journey begins with an initial consultation where we assess your current state, align goals, and create a customized implementation plan.
 
-### Investment
-The ATLAS program represents a strategic investment in your organization's future:
+### Investment Model
 
+The ATLAS program offers a strategic investment path that becomes more cost-effective as your organization builds internal teaching capability:
+
+**Initial Investment**
 - Program Accreditation: $50,000
-- Annual Maintenance: $25,000
-- Per-Architect Development: $10,000
+  - Includes implementation support
+  - Complete program materials
+  - Quality framework setup
+  - Initial mentor certification
 
-This investment includes comprehensive implementation support, all necessary materials and tools, and ongoing guidance from IASA Global experts.
+**Ongoing Investment**
+- Annual Program Maintenance: $25,000
+  - Quality control framework
+  - Material updates
+  - Program enhancements
+  - Continued support
+
+**Per-Architect Development**
+- Initial Junior Architects: $3,000
+  - Complete learning materials
+  - Assessment frameworks
+  - Program support
+  - Quality assurance
+
+Once your organization establishes certified mentors and internal teaching capability, the cost for developing additional junior architects is included in your annual maintenance fee. This model ensures sustainable, cost-effective architect development while maintaining high quality standards through IASA's oversight and support.
 
 ### Timeline
 Your transformation unfolds over three phases:
@@ -133,7 +151,7 @@ The 24-month structured program includes:
 - CITA-F certification preparation
 - Hands-on project experience
 - Expert mentorship
-Investment: $10,000
+Investment: $500.00 per architect
 
 ### Mentor Certification
 For experienced architects ready to shape the next generation:
@@ -148,7 +166,7 @@ A flexible option for self-paced learning:
 - Access to ATLAS materials
 - Community participation
 - Basic assessment tools
-Investment: $5,000
+Investment: $Available as part of program maintenance
 
 # Quality and Success
 
