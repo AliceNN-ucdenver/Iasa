@@ -1,72 +1,76 @@
-# Project Atlas University Outreach and Accreditation
+# IASA Academic Program Outreach and Accreditation Strategy
 
-This document outlines a strategy for outreach and accreditation for Project Atlas, an IASA academic program designed to transform IT architecture education.
+## University Targets
 
-## Outreach Strategy
+| University | Location | Program/Course | Department | Key Contact |
+|------------|------------|-----------------|------------|----------------------|
+| Carnegie Mellon University | USA | Software Architecture, EA | School of Computer Science | Prof. David Garlan, garlan@cs.cmu.edu |
+| Pennsylvania State University | USA | MPS in Enterprise Architecture | College of IST/Smeal College of Business | Dr. Brian Cameron, bhc103@psu.edu |
+| Kent State University | USA | EA Graduate Certificate | Emerging Media & Technology | School Office, emat@kent.edu |
+| Stevens Institute of Technology | USA | Enterprise Architecture & Governance Certificate | School of Systems & Enterprises | Prof. Kishore Pochiraju, kpochira@stevens.edu |
+| University of Denver | USA | Enterprise Architecture Course | Information & Communications Technology | Dr. Michael Kilpatrick, mkilpatr@du.edu |
+| University of Michigan–Flint | USA | EA Curriculum within IT Program | Computer Science & Information Systems | csis@umich.edu |
+| University of Toronto | Canada | Enterprise Architecture Certificate | School of Continuing Studies | scs@utoronto.ca |
+| University of Washington–Tacoma | USA | Enterprise Architecture Courses | School of Engineering & Technology | Dr. Wei Cheng, wcheng@uw.edu |
+| TU Dublin | Ireland | MSc in Applied IT Architecture | School of Enterprise Computing | Dr. Deirdre Laffan, deirdre.laffan@tudublin.ie |
+| University of Antwerp | Belgium | Executive Master in Enterprise IT Architecture | Antwerp Management School | Barbara Van Dyck, barbara.vandyck@ams.ac.be |
+| University of Twente | Netherlands | MSc BIT, Enterprise Architecture specialization | Faculty of EE, Mathematics & CS | Dr. Marten van Sinderen, m.j.vansinderen@utwente.nl |
+| University of Toronto | Canada | EA Certificate | School of Continuing Studies | scs@utoronto.ca |
 
-To effectively engage with target universities and promote Project Atlas, the following outreach strategy is recommended:
+---
 
-**1. Identify Key Contacts:**
+## Best Practices for University Partnerships
 
-*   Conduct thorough research to identify faculty members specializing in software architecture, systems engineering, or related fields within the target universities.
-*   Utilize online resources such as university websites, faculty directories, and research databases to gather contact information.
-*   Prioritize contacting department heads or program coordinators to gain insights into curriculum development and potential collaboration opportunities.
+| Component | Recommended Approach |
+|-----------|----------------------|
+| Initial Outreach | Personalized email addressing shared interests; highlight mutual benefits clearly |
+| Value Proposition | Offer immediate tangible value (guest lectures, webinars, case studies, student projects) |
+| Engagement Strategy | Attend academic events/conferences for face-to-face introductions; offer industry speakers or guest lectures |
+| Collaboration Models | Curriculum co-development, adjunct industry teaching roles, capstone or industry-sponsored projects, internships |
+| Research Collaboration | Co-sponsor applied research; share data or expertise; co-publish findings |
+| Advisory Roles | Serve on university advisory boards; include faculty in IASA councils |
+| Communication | Clearly outline objectives, timelines, and follow-up consistently |
 
-**2. Personalized Outreach:**
+---
 
-*   Craft personalized emails or letters to introduce Project Atlas and its value proposition to each university.
-*   Highlight the program's alignment with IASA's CITA-F certification, its focus on industry-relevant skills, and the potential for student career advancement.
-*   Emphasize the benefits of partnering with IASA, including access to standardized curriculum materials, faculty development programs, and industry connections.
+## Accreditation Recommendations for IASA
 
-**3. Leverage Existing Networks:**
+| Accreditation Component | Recommendation |
+|-------------------------|-----------------------|
+| Curriculum Standards | Define a clear **IASA Academic Curriculum Framework** covering core architecture topics (aligned with BTABoK) |
+| Faculty Qualifications | Require instructors to have both academic credentials and industry experience; provide mandatory IASA-led faculty training |
+| Practical Application | Mandate capstone projects, industry-sponsored case studies, or internships |
+| Industry Validation | Establish regular curriculum reviews with industry advisory boards; involve employers in evaluating graduate skills |
+| Accreditation Process | Peer-reviewed evaluation, including syllabus review, faculty assessment, site visits or virtual evaluations; renew accreditation every 3-5 years |
+| Certification Alignment | Integrate academic programs directly with CITA certification pathways; incentivize students with streamlined certification processes and membership benefits |
 
-*   Utilize IASA's network of members and industry partners to connect with university faculty and establish relationships.
-*   Attend relevant conferences and workshops to engage with academic communities and promote Project Atlas.
+---
 
-**4. Offer Value Propositions:**
+## Recommended Accreditation Model for IASA
 
-*   Clearly articulate the benefits of partnering with IASA, such as:
-    *   Enhanced curriculum and teaching materials
-    *   Access to industry experts and mentorship opportunities
-    *   Opportunities for joint research projects
-    *   Potential for student internships and placements
+| Area | Recommendations for IASA Accreditation |
+|-------|---------------------------------------|
+| Curriculum Framework | Clearly defined modules aligned to BTABoK, industry standards, and market needs |
+| Faculty Standards | Require a combination of academic qualifications and proven professional industry experience |
+| Evaluation Method | Regular peer-reviewed assessments, practical projects, and portfolio examinations aligned to CITA-F/A |
+| Industry Integration | Formal advisory board for ongoing curriculum updates and validation; feedback loops with employers |
+| Certification Pathway | Clearly outline how accredited coursework contributes directly towards professional CITA-F/A certification; establish clear incentives (credit transfer or streamlined certification) |
+| Membership Integration | Offer accredited program graduates discounted or free professional IASA membership; ensure easy certification pathways |
 
-## Accreditation Process
+---
 
-To ensure the quality and recognition of Project Atlas, the following accreditation process should be considered:
+## Summary & Next Steps
 
-**1. Identify an Accreditation Body:**
+- **Immediate Actions:**
+  - Reach out to listed university contacts with personalized proposals.
+  - Schedule exploratory meetings to discuss partnership opportunities.
 
-*   Research and select an accreditation body that specializes in computer science, engineering, or IT programs.
-*   Consider reputable organizations such as ABET (Accreditation Board for Engineering and Technology) or regional accreditation agencies.
+- **Medium-term Objectives:**
+  - Formalize a standardized accreditation framework.
+  - Launch pilot accreditation processes with selected university partners.
 
-**2. Develop a Self-Study Report:**
+- **Long-term Goals:**
+  - Establish a robust, globally recognized IASA accreditation model.
+  - Expand partnerships using successful initial models as case studies.
 
-*   Prepare a comprehensive self-study report that details the program's curriculum, learning outcomes, faculty qualifications, and available resources.
-*   Ensure the report addresses the specific standards and criteria set by the chosen accreditation body.
 
-**3. Peer Review:**
-
-*   The accreditation body will conduct a peer review process, which may involve a site visit and evaluation by a team of experts.
-*   Actively participate in the peer review process and address any recommendations or suggestions for improvement.
-
-**4. Final Accreditation Decision:**
-
-*   The accreditation body will make a final decision on the program's accreditation status based on the self-study report, peer review findings, and any further actions taken.
-
-## University Research Summary
-
-| College Name | Research Areas | Department Link | Notes |
-|---|---|---|---|
-| Carnegie Mellon University (CMU) | AI, Graphics, Programming Languages, Security, Systems, Theory | [https://csd.cmu.edu/](https://csd.cmu.edu/) | Randy Pausch [1] |
-| Georgia Institute of Technology | Computer Science, Interactive Computing, Computational Science & Engineering | [https://www.cc.gatech.edu/](https://www.cc.gatech.edu/) | Tom Conte [2] |
-| Massachusetts Institute of Technology (MIT) | AI, Machine Learning, Communications Systems, Computer Architecture, Educational Technology, Graphics and Vision, Human-Computer Interaction, Programming Languages and Software Engineering, Quantum Computing, Robotics | [https://www.eecs.mit.edu/](https://www.eecs.mit.edu/) | |
-| Stanford University | AI, Robotics, Foundations of Computer Science, Scientific Computing, Systems | [https://cs.stanford.edu/](https://cs.stanford.edu/) | |
-| University of California, Berkeley (UC Berkeley) | Computer Architecture, Theory, Security, Programming Languages, Numerical Methods, AI, Human-Computer Interaction, Computational Biology | [https://eecs.berkeley.edu/](https://eecs.berkeley.edu/) | |
-| University of Michigan | AI, Pervasive Computing, Computer Systems, Cybersecurity, Quantum Computing, Human-Centered Computing, Theoretical Computer Science | [https://cse.engin.umich.edu/](https://cse.engin.umich.edu/) | |
-| University of Texas at Austin | AI, Bioinformatics, Computer Architecture, Computer Vision, Databases, Formal Methods, Graphics, Human-Computer Interaction, Intelligent Robotics, Machine Learning, Natural Language Processing, Parallel Computing, Programming Languages, Scientific Computing, Security, Systems & Networking, Theoretical Computer Science | [https://www.cs.utexas.edu/](https://www.cs.utexas.edu/) | |
-| University of Oxford | Algorithms, AI, Automated Verification, Computational Biology, Cyber Physical Systems, Foundations, Human-Centred Computing, Information Systems, Programming Languages, Security | [https://www.cs.ox.ac.uk/](https://www.cs.ox.ac.uk/) | |
-| University of Cambridge | Bioinformatics, Computer Architecture, Computer Vision, Distributed Systems, Graphics, Human-Computer Interaction, Logic, Machine Learning, Natural Language Processing, Networking, Operating Systems, Programming, Security, Theory | [https://www.cst.cam.ac.uk/](https://www.cst.cam.ac.uk/) | |
-| Imperial College London | AI, Data Science, Programming Languages, Cyber Security, Software Engineering, Systems, Theory, Visual Computing | [https://www.imperial.ac.uk/computing/](https://www.imperial.ac.uk/computing/) | |
-| ETH Zurich | Theoretical Computer Science, Algorithm Design, Computational Science, Software Engineering, Information Systems, Graphics, Computer Networks, AI | [https://inf.ethz.ch/](https://inf.ethz.ch/) | |
-| Technical University of Munich (TUM) | Software and Data Science, Supercomputing, AI | [https://www.cs.cit.tum.de/en/cs/home/](https://www.cs.cit.tum.de/en/cs/home/) | |
