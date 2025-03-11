@@ -16,41 +16,6 @@
 | [University of Antwerp](https://www.uantwerpen.be/en/) | Belgium | Executive Master in Enterprise IT Architecture | [Antwerp Management School](https://www.antwerpmanagementschool.be/en/) | Barbara Van Dyck<br>Email: barbara.vandyck@ams.ac.be<br>[Faculty Profile](https://www.antwerpmanagementschool.be/en/about-ams/faculty/barbara-van-dyck) |
 | [University of Twente](https://www.utwente.nl/en/) | Netherlands | MSc BIT, Enterprise Architecture specialization | [Faculty of Electrical Engineering, Mathematics & Computer Science](https://www.utwente.nl/en/eemcs/) | Dr. Marten van Sinderen<br>Email: m.j.vansinderen@utwente.nl<br>[Faculty Profile](https://people.utwente.nl/m.j.vansinderen) |
 
-### Notes:
-
-- **Carnegie Mellon University:**  
-  Prof. David Garlan is a renowned expert in software architecture. His profile can be found on the [Institute for Software Research faculty page](https://www.cs.cmu.edu/~garlan/).
-
-- **Pennsylvania State University:**  
-  Dr. Brian Cameron is a key contact for the Enterprise Architecture program. His profile is available on the [College of Information Sciences and Technology directory](https://ist.psu.edu/directory/bhc103).
-
-- **Kent State University:**  
-  The School of Emerging Media and Technology's contact information is listed on their [contact page](https://www.kent.edu/emat/contact-us).
-
-- **Stevens Institute of Technology:**  
-  Prof. Kishore Pochiraju's profile can be found on the [School of Systems and Enterprises faculty page](https://www.stevens.edu/school-systems-enterprises/faculty/full-time-faculty/kishore-pochiraju).
-
-- **University of Denver:**  
-  Dr. Michael Kilpatrick's profile is available on the [University College faculty directory](https://universitycollege.du.edu/about/faculty/michael-kilpatrick).
-
-- **University of Michigan–Flint:**  
-  The Department's contact information is listed on their [contact page](https://www.umflint.edu/csep/contact-us/).
-
-- **University of Toronto:**  
-  The School of Continuing Studies offers the Enterprise Architecture Certificate. More information is available on their [website](https://learn.utoronto.ca/programs-courses/certificates/enterprise-architecture).
-
-- **University of Washington–Tacoma:**  
-  Dr. Wei Cheng's profile can be found on the [School of Engineering and Technology faculty page](https://www.tacoma.uw.edu/set/wei-cheng).
-
-- **TU Dublin:**  
-  Dr. Deirdre Laffan's profile is available on the [School of Enterprise Computing faculty page](https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-enterprise-computing/staff/dr-deirdre-laffan.html).
-
-- **University of Antwerp:**  
-  Barbara Van Dyck's profile can be found on the [Antwerp Management School faculty page](https://www.antwerpmanagementschool.be/en/faculty/barbara-van-dyck).
-
-- **University of Twente:**  
-  Dr. Marten van Sinderen's profile is available on the [Faculty of Electrical Engineering, Mathematics and Computer Science staff page](https://people.utwente.nl/m.j.vansinderen).
-
 ---
 
 ### Additional Universities to Research
