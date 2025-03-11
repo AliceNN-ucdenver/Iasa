@@ -4,7 +4,7 @@
 
 | University | Location | Program/Course | Department | Key Contact |
 |------------|----------|----------------|------------|-------------|
-| [Carnegie Mellon University](https://www.cmu.edu/) | USA | Software Architecture, EA | [School of Computer Science](https://www.cs.cmu.edu/) | Prof. David Garlan<br>Email: garlan@cs.cmu.edu<br>[Faculty Profile]((https://www.cs.cmu.edu/~garlan/)) |
+| [Carnegie Mellon University](https://www.cmu.edu/) | USA | Software Architecture, EA | [School of Computer Science](https://www.cs.cmu.edu/) | Prof. David Garlan<br>Email: garlan@cs.cmu.edu<br>[Faculty Profile](https://www.cs.cmu.edu/~garlan/) |
 | [Pennsylvania State University](https://www.psu.edu/) | USA | MPS in Enterprise Architecture | [College of Information Sciences and Technology](https://ist.psu.edu/) | Dr. Brian Cameron<br>Email: bcameron@ist.psu.edu<br>[Faculty Profile](https://ist.psu.edu/directory/bcameron) |
 | [Kent State University](https://www.kent.edu/) | USA | EA Graduate Certificate | [School of Emerging Media and Technology](https://www.kent.edu/emat) | School Office<br>Email: emat@kent.edu<br>[Faculty Directory](https://www.kent.edu/emat/faculty) |
 | [Stevens Institute of Technology](https://www.stevens.edu/) | USA | Enterprise Architecture & Governance Certificate | [School of Systems and Enterprises](https://www.stevens.edu/school-systems-enterprises) | Prof. Kishore Pochiraju<br>Email: kpochira@stevens.edu<br>[Faculty Profile](https://www.stevens.edu/school-systems-enterprises/faculty/full-time-faculty/kishore-pochiraju) |
