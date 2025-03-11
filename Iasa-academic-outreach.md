@@ -19,7 +19,7 @@
 ### Notes:
 
 - **Carnegie Mellon University:**  
-  Prof. David Garlan is a renowned expert in software architecture. His profile can be found on the [Institute for Software Research faculty page]((https://www.cs.cmu.edu/~garlan/)).
+  Prof. David Garlan is a renowned expert in software architecture. His profile can be found on the [Institute for Software Research faculty page](https://www.cs.cmu.edu/~garlan/).
 
 - **Pennsylvania State University:**  
   Dr. Brian Cameron is a key contact for the Enterprise Architecture program. His profile is available on the [College of Information Sciences and Technology directory](https://ist.psu.edu/directory/bhc103).
