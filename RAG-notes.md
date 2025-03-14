@@ -320,3 +320,143 @@ reduced = umap.UMAP().fit_transform(embeddings)
 ```
 
 ---
+
+### **Explanation of `RunnableAssign` in LangChain (Maintaining State)**
+
+---
+
+### **Core Concept:**
+`RunnableAssign` is a LangChain component used to update or add fields to the input state dynamically, allowing you to progressively build, track, or modify state as data moves through your pipeline. It helps orchestrate stateful workflows by clearly managing intermediate data across different chain steps.
+
+**In simpler terms**:  
+`RunnableAssign` lets you dynamically enrich the state with new key-value pairs based on outputs from other chain components. This is essential in complex workflows where maintaining context and progressively building information is important.
+
+---
+
+### **Detailed Explanation:**
+
+In LangChain, a "Runnable" refers to composable elements that process data (inputs) and generate results (outputs). When constructing chains or pipelines (especially stateful ones), you often need to track intermediate results or pass outputs from one step as input to the next.
+
+`RunnableAssign` is specifically useful because:
+
+- **Dynamic State Updates:**  
+  Allows the pipeline to store intermediate outputs, context, or any computed data directly into the workflow state.
+
+- **Progressive Enrichment:**  
+  As chains execute, the state is enriched step-by-step. This progressively enhanced state can be passed on for further processing or decision-making downstream.
+
+- **Branching Workflows:**  
+  `RunnableAssign` can be particularly powerful in workflows requiring conditional logic (branching) or parallel computations, where each path contributes to the overall state.
+
+---
+
+### **Practical Example (`RunnableAssign` in action):**
+
+Suppose you’re building a conversational RAG pipeline that classifies incoming queries and generates appropriate responses. After classification, you may need to keep track of the classification outcome (`topic`) in the workflow state, then pass it along to the next runnable to generate an appropriate answer:
+
+```python
+from langchain.prompts import PromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain.schema.runnable import RunnableAssign, RunnablePassthrough
+
+llm = ChatOpenAI(model="gpt-4")
+
+# Classification prompt
+cls_prompt = PromptTemplate(
+    template="Classify this sentence into one of these topics: technical, support, pricing.\nSentence: {input}",
+    input_variables=["input"]
+)
+
+# Generation prompt (dynamic based on classification)
+gen_prompt = PromptTemplate(
+    template="Based on the topic '{topic}', answer: {input}",
+    input_variables=["topic", "input"]
+)
+
+# Define chains
+cls_chain = cls_prompt | llm | StrOutputParser()
+gen_chain = gen_prompt | llm | StrOutputParser()
+
+# RunnableAssign enriches state by assigning the 'topic'
+chain_with_state = RunnableAssign(
+    topic=cls_chain
+) | gen_chain
+
+# Execute chain
+state = {"input": "How much does premium support cost?"}
+final_response = chain.invoke(state=state)
+```
+
+**What happens here?**
+
+1. **Classification (`cls_chain`):**  
+   Input ("How much...") → classified as "pricing" (or similar).
+
+2. **State Enrichment (`RunnableAssign`):**  
+   Classification result (e.g., "pricing") assigned to state under `topic`.
+
+3. **Generation (`gen_chain`):**  
+   Enriched state (`topic="pricing"`) passed → generates a relevant answer based on that enriched context.
+
+---
+
+### **Advanced Example (Maintaining Complex State):**  
+In a conversational workflow, you might use `RunnableAssign` to maintain the dialogue history:
+
+```python
+from langchain.schema.runnable import RunnableAssign
+from langchain.memory import ConversationBufferMemory
+
+memory = ConversationBufferMemory(return_messages=True)
+
+def add_memory(inputs):
+    memory.save_context(inputs, {"response": inputs["response"]})
+    return memory.load_memory_variables({})
+
+conversation_chain = (
+    RunnableAssign(response=prompt | llm | StrOutputParser())
+    | RunnableAssign(memory=add_memory)
+)
+
+state = {"input": "What's the capital of France?"}
+result = conversation_chain.invoke(state={"input": "What's France's capital?"})
+```
+
+**Workflow:**  
+- Input passed to the LLM via `prompt`.
+- LLM’s response is saved to memory through `RunnableAssign`.
+- Conversation memory updated each iteration, preserving state.
+
+---
+
+### **Why Use `RunnableAssign` for State Management?**
+
+- **Simplicity**: Cleaner, declarative state management.
+- **Transparency**: Easy tracking and logging of state changes.
+- **Flexibility**: Enables dynamic workflows and branching logic.
+
+---
+
+### **Summary (Key Takeaways):**
+
+- `RunnableAssign` enriches your pipeline’s internal state incrementally.
+- Enables efficient chaining by adding computed values to the state.
+- Ideal for complex workflows involving multiple dependent steps, like RAG systems or conversational memory.
+
+---
+
+### **Advanced Pattern (Stateful RunnableAssign)**:
+
+```python
+workflow = RunnableAssign({
+    "classification": cls_chain,
+    "retrieved_docs": retriever_chain
+}) | RunnableAssign({
+    "final_answer": gen_chain
+})
+```
+
+Here, multiple outputs are progressively added into the workflow state for advanced processing.
+
+---
+
