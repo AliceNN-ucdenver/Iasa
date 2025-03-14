@@ -131,6 +131,27 @@ services:
 response = llm.invoke("Summarize this article about black holes.")
 ```
 
+| **Model** | **Architecture** | **Parameters** | **Key Strengths** | **Limitations** |
+|-----------|------------------|-----------------|-------------------|-----------------|
+| **ChatGPT (GPT-4)** | Decoder-only (Transformer) | Strong reasoning, instruction-following, multilingual | Closed source; higher latency/cost |
+| **Llama2** | Decoder-only (Transformer) | Open weights, fine-tunable, strong open-source ecosystem | Requires substantial computational resources (13B/70B) |
+| **Mixtral** | Mixture of Experts (MoE) | High efficiency, cost-effective, scalable reasoning | Narrow context window, complexity in routing logic |
+| **Gemini** | Decoder architecture (likely multimodal) | Multimodal reasoning, advanced language/image comprehension | Limited open ecosystem and deployment clarity |
+| **Mistral** | Decoder-only (Transformer) | Efficient performance, lightweight, strong multilingual support | Limited context length, slightly lower reasoning at small scale |
+| **Cohere Command R+** | Decoder-only (Transformer), retrieval-enhanced | Specialized in retrieval tasks, strong accuracy in retrieval tasks | Costly at scale, proprietary model |
+| **Mixtral (MoE)** | Mixture of Experts (8x7B decoder-only experts) | Excellent reasoning, efficiency via expert mixtures | Complexity in fine-tuning; constrained context window |
+| **Gemini (Google)** | Likely decoder-only (Transformer), multimodal support | Integrates text, audio, and visual data for comprehensive reasoning | Less transparent; fewer open-source integrations |
+| **Falcon** | Decoder-only (Transformer) | High-performance open-source, excels in reasoning tasks | Heavy GPU requirements for larger versions |
+| **Claude 3 (Anthropic)** | Decoder-only, RLHF-tuned | Advanced dialogue capabilities, strong alignment through instruction tuning | Closed-model API only; limited model transparency |
+
+### Recommended Reference Papers:
+
+- **GPT-4**: [OpenAI GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
+- **Llama2**: [Meta AI's Llama2 Paper](https://arxiv.org/abs/2307.09288)
+- **Mistral/Mixtral**: [Mixtral Paper](https://arxiv.org/abs/2401.10968)
+- **Falcon**: [Falcon-40B Paper](https://falconllm.tii.ae/)
+- **Claude (Anthropic)**: [Anthropic's Constitutional AI](https://arxiv.org/abs/2204.05862)
+
 ---
 
 ### Instruction Fine-Tuning
