@@ -267,7 +267,7 @@ The Atlas approach emphasizes four key dimensions:
 As Deloitte's Tech Trends 2025 highlights, engineering and talent are critical pillars in AI transformation. Organizations need a clear strategy for developing architectural capabilities before AI becomes ubiquitous.
 
 ```mermaid
-flowchart LR
+ graph LR
     B1["Future Talent<br>Pipeline"] --> B["University<br>Partnerships"]
     C1["Existing Staff<br>Development"] --> C["Enterprise<br>Learning Paths"]
     D1["Hybrid<br>Expertise"] --> D["Cross-Functional<br>Development"]
@@ -279,7 +279,10 @@ flowchart LR
     E --> A
     
     style A fill:#f96,stroke:#333,stroke-width:2px
-    style B,C,D,E fill:#99f,stroke:#333,stroke-width:1px
+    style B fill:#99f,stroke:#333,stroke-width:1px
+    style C fill:#99f,stroke:#333,stroke-width:1px
+    style D fill:#99f,stroke:#333,stroke-width:1px
+    style E fill:#99f,stroke:#333,stroke-width:1px 
 ```
 
 | Approach | Current State | Future Vision |
