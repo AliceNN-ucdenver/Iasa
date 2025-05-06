@@ -17,7 +17,7 @@ As Agent Smith explains, "The perfect world was a dream... but your primitive ce
 For decades, enterprises have operated with centralized IT models that served them well during predictable technology evolution. However, the AI revolution requires breaking free from this matrix of thinking. Like Neo discovering the truth about his reality, organizations must recognize that the traditional architecture approach—where all decisions flow from the center—is merely an illusion of control in today's fast-paced AI landscape.
 
 ```mermaid
-graph TD
+flowchart TD
     H["Adaptive<br>Frameworks"] -->|Value Creation| B["AI-Driven Architecture<br>Distributed Enablement"]
     G["Federated<br>Decision Making"] -->|Accelerated Delivery| B
     F["Architecture<br>as Code"] -->|Rapid Innovation| B
@@ -45,7 +45,7 @@ The new paradigm requires a shift from centralized build-and-maintain models to 
 Building on the concept of a "golden path" for software development, we can establish a "strategic AI design pathway" that integrates architecture at every stage of the AI transformation lifecycle:
 
 ```mermaid
-graph LR
+flowchart LR
     Stage4 -.-> Stage1
     Stage3 --> Stage4
     Stage2 --> Stage3
@@ -73,25 +73,25 @@ graph LR
 
 | Stage | Who | Theme | How | Goal |
 |-------|-----|-------|-----|------|
-| **Strategy & Vision** | Enterprise architects | Digital Advantage | Collaborative vision with cross-functional participation | Define AI value, ethics, and governance requirements |
-| | Business strategists | Value Creation | | |
-| | AI ethics specialists | Responsible AI | | |
-| **Design & Development** | Solution architects | Pattern Design | Automated architectural patterns in AI pipelines | Detect design issues early in development |
-| | Developers | Implementation | | |
-| | Data scientists | Intelligence | | |
-| **Integration & Deployment** | Technology architects | Interoperability | Automated architecture gates with clear remediation paths | Validate architectural integrity before production deployment |
-| | DevOps | Automation | | |
-| | Platform engineers | Scalability | | |
-| **Continuous Evolution** | Enterprise architects | Strategic Alignment | Shared responsibility model with clear accountabilities | Maintain architectural alignment throughout AI product lifecycle |
-| | Product owners | Feedback Integration | | |
-| | Business analysts | Value Measurement | | |
+| **Strategy & Vision** | Enterprise architects | Digital Advantage | Establish cross-functional steering committees with executive sponsorship | Define clear value metrics for AI initiatives that balance innovation with risk |
+| | Business strategists | Value Creation | Map AI initiatives to strategic business priorities with ROI expectations | Create business-led prioritization framework for AI deployment |
+| | AI ethics specialists | Responsible AI | Develop ethical AI principles and governance guardrails | Ensure responsible development and deployment aligned with organizational values |
+| **Design & Development** | Solution architects | Pattern Design | Create reusable architectural patterns and reference implementations | Accelerate development while maintaining architectural integrity |
+| | Developers | Implementation | Employ agile development with architecture-as-code practices | Deliver high-quality, well-architected AI components rapidly |
+| | Data scientists | Intelligence | Develop model evaluation frameworks and quality standards | Ensure AI models meet performance and ethical standards |
+| **Integration & Deployment** | Technology architects | Interoperability | Define interface standards and integration patterns | Create a cohesive ecosystem that enables seamless AI integration |
+| | DevOps | Automation | Implement CI/CD pipelines with built-in architectural validation | Automate deployment with continuous architecture assessment |
+| | Platform engineers | Scalability | Design flexible infrastructure that grows with usage | Support seamless scaling without architectural compromise |
+| **Continuous Evolution** | Enterprise architects | Strategic Alignment | Regular architecture reviews tied to business outcomes | Maintain alignment between architecture and evolving business needs |
+| | Product owners | Feedback Integration | Operate feedback loops that capture real-world usage patterns | Drive continuous improvement based on actual usage data |
+| | Business analysts | Value Measurement | Track and report on value realization against projections | Ensure ongoing value delivery and course correction |
 
 ## The New Architectural Success Metrics Dashboard
 
 To effectively manage what you measure, a comprehensive architecture metrics dashboard should track key indicators across the AI transformation lifecycle:
 
 ```mermaid
-graph TD
+flowchart TD
     F1["Architecture coverage<br>across AI systems"] --> F["Risk Management"]
     E1["# of AI experiments<br>facilitated by architecture"] --> E["Innovation Rate"]
     D1["Reduction in cycle time<br>for AI capabilities"] --> D["Time-to-Value"]
@@ -123,7 +123,7 @@ The risk management metric has been enhanced from simple architecture coverage t
 Enterprise IT has consistently been looking at Lean IT with higher outsourcing to lower-cost providers, viewing architecture as overhead rather than strategic advantage. This new AI revolution requires a fundamental shift in thinking—from building and maintaining to architecture, strategy, and innovation.
 
 ```mermaid
-graph LR
+flowchart LR
     C3["Business Transformation"] --> C["To: Architect, Strategize & Innovate"]
     C2["Strategic Focus"] --> C
     C1["Value Creator"] --> C
