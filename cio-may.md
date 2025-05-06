@@ -122,26 +122,26 @@ Building on the concept of a "golden path" for software development, we can esta
 
 ```mermaid
 flowchart LR
+    subgraph Stage4["Stage 4: Continuous Evolution"]
+        D3["Business Analysts<br><i>Theme: Value Measurement</i>"] --- D2["Product Owners<br><i>Theme: Feedback Integration</i>"] --- D1["Enterprise Architects<br><i>Theme: Strategic Alignment</i>"]
+    end
+    
+    subgraph Stage3["Stage 3: Integration & Deployment"]
+        C3["Platform Engineers<br><i>Theme: Scalability</i>"] --- C2["DevOps<br><i>Theme: Automation</i>"] --- C1["Technology Architects<br><i>Theme: Interoperability</i>"]
+    end
+    
+    subgraph Stage2["Stage 2: Design & Development"]
+        B3["Data Scientists<br><i>Theme: Intelligence</i>"] --- B2["Developers<br><i>Theme: Implementation</i>"] --- B1["Solution Architects<br><i>Theme: Pattern Design</i>"]
+    end
+    
+    subgraph Stage1["Stage 1: Strategy & Vision"]
+        A3["AI Ethics Specialists<br><i>Theme: Responsible AI</i>"] --- A2["Business Strategists<br><i>Theme: Value Creation</i>"] --- A1["Enterprise Architects<br><i>Theme: Digital Advantage</i>"]
+    end
+
     Stage1 --> Stage2
     Stage2 --> Stage3
     Stage3 --> Stage4
     Stage4 -.-> Stage1
-    
-    subgraph "Stage 4: Continuous Evolution"
-        D3["Business Analysts<br><i>Theme: Value Measurement</i>"] --- D2["Product Owners<br><i>Theme: Feedback Integration</i>"] --- D1["Enterprise Architects<br><i>Theme: Strategic Alignment</i>"]
-    end
-    
-    subgraph "Stage 3: Integration & Deployment"
-        C3["Platform Engineers<br><i>Theme: Scalability</i>"] --- C2["DevOps<br><i>Theme: Automation</i>"] --- C1["Technology Architects<br><i>Theme: Interoperability</i>"]
-    end
-    
-    subgraph "Stage 2: Design & Development"
-        B3["Data Scientists<br><i>Theme: Intelligence</i>"] --- B2["Developers<br><i>Theme: Implementation</i>"] --- B1["Solution Architects<br><i>Theme: Pattern Design</i>"]
-    end
-    
-    subgraph "Stage 1: Strategy & Vision"
-        A3["AI Ethics Specialists<br><i>Theme: Responsible AI</i>"] --- A2["Business Strategists<br><i>Theme: Value Creation</i>"] --- A1["Enterprise Architects<br><i>Theme: Digital Advantage</i>"]
-    end
     
     classDef stage fill:#f9f,stroke:#333,stroke-width:2px;
     class Stage1,Stage2,Stage3,Stage4 stage;
