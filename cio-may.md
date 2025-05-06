@@ -18,21 +18,27 @@ For decades, enterprises have operated with centralized IT models that served th
 
 ```mermaid
 graph TD
-    A[Traditional Architecture<br>Centralized Control] --> B[AI-Driven Architecture<br>Distributed Enablement]
+    H["Adaptive<br>Frameworks"] -->|Value Creation| B["AI-Driven Architecture<br>Distributed Enablement"]
+    G["Federated<br>Decision Making"] -->|Accelerated Delivery| B
+    F["Architecture<br>as Code"] -->|Rapid Innovation| B
     
-    A -->|Limited Innovation| C[Documentation<br>After Implementation]
-    A -->|Slow Delivery| D[Centralized<br>Decision Making]
-    A -->|Technical Debt| E[Rigid<br>Frameworks]
+    E["Rigid<br>Frameworks"] -->|Technical Debt| A["Traditional Architecture<br>Centralized Control"]
+    D["Centralized<br>Decision Making"] -->|Slow Delivery| A
+    C["Documentation<br>After Implementation"] -->|Limited Innovation| A
     
-    B -->|Rapid Innovation| F[Architecture<br>as Code]
-    B -->|Accelerated Delivery| G[Federated<br>Decision Making]
-    B -->|Value Creation| H[Adaptive<br>Frameworks]
+    I["Application Portfolio<br>Management"] -->|Operational Burden| A
+    J["Manual Attestation<br>Processes"] -->|Compliance Focus| A
+    K["Technology Standards<br>Enforcement"] -->|Governance Overhead| A
+    
+    B -->|Automated| L["AI-Assisted Portfolio<br>Optimization"]
+    B -->|Continuous| M["Real-time Compliance<br>Monitoring"]
+    B -->|Enabling| N["Adaptive Technology<br>Guidelines"]
     
     style A fill:#f55,stroke:#333,stroke-width:2px
     style B fill:#5f5,stroke:#333,stroke-width:2px
 ```
 
-The new paradigm requires a shift from centralized build-and-maintain models to human-in-the-loop, collaborative architecture that enables citizen developers while ensuring governance. This isn't about abandoning control but rather reimagining it as a distributed framework that guides rather than restricts innovation.
+The new paradigm requires a shift from centralized build-and-maintain models to human-in-the-loop, collaborative architecture that enables citizen developers while ensuring governance. This isn't about abandoning control but rather reimagining it as a distributed framework that guides rather than restricts innovation. Traditional operational aspects of enterprise architecture—like application portfolio management, standards enforcement, and attestation processes—must evolve from administrative burdens into strategic enablers.
 
 ## Building the "Secure Golden Pathway" for AI Transformation
 
@@ -40,45 +46,45 @@ Building on the concept of a "golden path" for software development, we can esta
 
 ```mermaid
 graph LR
-    subgraph "Stage 1: Strategy & Vision"
-        A1[Enterprise Architects]
-        A2[Business Strategists]
-        A3[AI Ethics Specialists]
-    end
+    Stage4 -.-> Stage1
+    Stage3 --> Stage4
+    Stage2 --> Stage3
+    Stage1 --> Stage2
     
-    subgraph "Stage 2: Design & Development"
-        B1[Solution Architects]
-        B2[Developers]
-        B3[Data Scientists]
+    subgraph "Stage 4: Continuous Evolution"
+        D3["Business Analysts<br><i>Theme: Value Measurement</i>"] --- D2["Product Owners<br><i>Theme: Feedback Integration</i>"] --- D1["Enterprise Architects<br><i>Theme: Strategic Alignment</i>"]
     end
     
     subgraph "Stage 3: Integration & Deployment"
-        C1[Technology Architects]
-        C2[DevOps]
-        C3[Platform Engineers]
+        C3["Platform Engineers<br><i>Theme: Scalability</i>"] --- C2["DevOps<br><i>Theme: Automation</i>"] --- C1["Technology Architects<br><i>Theme: Interoperability</i>"]
     end
     
-    subgraph "Stage 4: Continuous Evolution"
-        D1[Enterprise Architects]
-        D2[Product Owners]
-        D3[Business Analysts]
+    subgraph "Stage 2: Design & Development"
+        B3["Data Scientists<br><i>Theme: Intelligence</i>"] --- B2["Developers<br><i>Theme: Implementation</i>"] --- B1["Solution Architects<br><i>Theme: Pattern Design</i>"]
     end
     
-    Stage1 --> Stage2
-    Stage2 --> Stage3
-    Stage3 --> Stage4
-    Stage4 -.-> Stage1
+    subgraph "Stage 1: Strategy & Vision"
+        A3["AI Ethics Specialists<br><i>Theme: Responsible AI</i>"] --- A2["Business Strategists<br><i>Theme: Value Creation</i>"] --- A1["Enterprise Architects<br><i>Theme: Digital Advantage</i>"]
+    end
     
     classDef stage fill:#f9f,stroke:#333,stroke-width:2px;
     class Stage1,Stage2,Stage3,Stage4 stage;
 ```
 
-| Stage | Who | How | Goal |
-|-------|-----|-----|------|
-| **Strategy & Vision** | Enterprise architects, business strategists, AI ethics specialists | Collaborative vision with cross-functional participation | Define AI value, ethics, and governance requirements |
-| **Design & Development** | Solution architects, developers, data scientists | Automated architectural patterns in AI pipelines | Detect design issues early in development |
-| **Integration & Deployment** | Technology architects, DevOps, platform engineers | Automated architecture gates with clear remediation paths | Validate architectural integrity before production deployment |
-| **Continuous Evolution** | Enterprise architects, product owners, business analysts | Shared responsibility model with clear accountabilities | Maintain architectural alignment throughout AI product lifecycle |
+| Stage | Who | Theme | How | Goal |
+|-------|-----|-------|-----|------|
+| **Strategy & Vision** | Enterprise architects | Digital Advantage | Collaborative vision with cross-functional participation | Define AI value, ethics, and governance requirements |
+| | Business strategists | Value Creation | | |
+| | AI ethics specialists | Responsible AI | | |
+| **Design & Development** | Solution architects | Pattern Design | Automated architectural patterns in AI pipelines | Detect design issues early in development |
+| | Developers | Implementation | | |
+| | Data scientists | Intelligence | | |
+| **Integration & Deployment** | Technology architects | Interoperability | Automated architecture gates with clear remediation paths | Validate architectural integrity before production deployment |
+| | DevOps | Automation | | |
+| | Platform engineers | Scalability | | |
+| **Continuous Evolution** | Enterprise architects | Strategic Alignment | Shared responsibility model with clear accountabilities | Maintain architectural alignment throughout AI product lifecycle |
+| | Product owners | Feedback Integration | | |
+| | Business analysts | Value Measurement | | |
 
 ## The New Architectural Success Metrics Dashboard
 
@@ -86,29 +92,31 @@ To effectively manage what you measure, a comprehensive architecture metrics das
 
 ```mermaid
 graph TD
-    A[Architecture Success Metrics] --> B[Strategic Alignment]
-    A --> C[Technical Debt]
-    A --> D[Time-to-Value]
-    A --> E[Innovation Rate]
-    A --> F[Risk Management]
+    F1["Architecture coverage<br>across AI systems"] --> F["Risk Management"]
+    E1["# of AI experiments<br>facilitated by architecture"] --> E["Innovation Rate"]
+    D1["Reduction in cycle time<br>for AI capabilities"] --> D["Time-to-Value"]
+    C1["# of AI implementations<br>following architectural patterns"] --> C["Technical Debt"]
+    B1["% of AI initiatives<br>linked to business outcomes"] --> B["Strategic Alignment"]
     
-    B --> B1[% of AI initiatives<br>linked to business outcomes]
-    C --> C1[# of AI implementations<br>following architectural patterns]
-    D --> D1[Reduction in cycle time<br>for AI capabilities]
-    E --> E1[# of AI experiments<br>facilitated by architecture]
-    F --> F1[Architecture coverage<br>across AI systems]
+    F --> A["Architecture Success Metrics"]
+    E --> A
+    D --> A
+    C --> A
+    B --> A
     
     style A fill:#f96,stroke:#333,stroke-width:2px
     style B,C,D,E,F fill:#99f,stroke:#333,stroke-width:1px
 ```
 
-| Metric Category | Key Performance Indicator | Target |
-|-----------------|---------------------------|--------|
-| **Strategic Alignment** | % of AI initiatives linked to business outcomes | >80% |
-| **Technical Debt** | % of AI implementations following architectural patterns | >75% |
-| **Time-to-Value** | Reduction in cycle time for AI capabilities | -30% |
-| **Innovation Rate** | # of AI experiments facilitated by architectural patterns | +50% |
-| **Risk Management** | % Architecture coverage across AI systems | >85% |
+| Metric Category | Key Performance Indicator | Target | Risk Management Focus |
+|-----------------|---------------------------|--------|------------------------|
+| **Strategic Alignment** | % of AI initiatives linked to business outcomes | >80% | Misalignment with business priorities |
+| **Technical Debt** | % of AI implementations following architectural patterns | >75% | Future agility constraints |
+| **Time-to-Value** | Reduction in cycle time for AI capabilities | -30% | Opportunity cost |
+| **Innovation Rate** | # of AI experiments facilitated by architectural patterns | +50% | Competitive disadvantage |
+| **Risk Management** | % of vulnerable system components with remediation plans | >90% | Tangible evidence of risk controls |
+
+The risk management metric has been enhanced from simple architecture coverage to focus on remediation planning for vulnerable components, providing tangible evidence of controls—a key element highlighted in the original "Security is dead" article, which noted: <i>"Regulators today are no longer satisfied with frameworks, documentation, and audit validation alone; they want tangible evidence."</i>
 
 ## Moving from Build-and-Maintain to Architect-Strategize-Innovate
 
@@ -116,16 +124,16 @@ Enterprise IT has consistently been looking at Lean IT with higher outsourcing t
 
 ```mermaid
 graph LR
-    A[Paradigm Shift] --> B[From: Build & Maintain]
-    A --> C[To: Architect, Strategize & Innovate]
+    C3["Business Transformation"] --> C["To: Architect, Strategize & Innovate"]
+    C2["Strategic Focus"] --> C
+    C1["Value Creator"] --> C
     
-    B --> B1[Cost Center]
-    B --> B2[Operational Focus]
-    B --> B3[Technology Implementation]
+    B3["Technology Implementation"] --> B["From: Build & Maintain"]
+    B2["Operational Focus"] --> B
+    B1["Cost Center"] --> B
     
-    C --> C1[Value Creator]
-    C --> C2[Strategic Focus]
-    C --> C3[Business Transformation]
+    C --> A["Paradigm Shift"]
+    B --> A
     
     style A fill:#f96,stroke:#333,stroke-width:2px
     style B fill:#f55,stroke:#333,stroke-width:1px
@@ -148,22 +156,22 @@ The IASA Global Atlas program represents a promising approach to this challenge,
 
 ```mermaid
 graph TD
-    A[The IASA Atlas Model] --> B[Skills Foundation]
-    A --> C[Practice Integration]
-    A --> D[Community Learning]
-    A --> E[Continuous Evolution]
+    E2["Emerging<br>Technologies"] --> E["Continuous Evolution"]
+    E1["Adaptive<br>Methods"] --> E
     
-    B --> B1[University<br>Education]
-    B --> B2[Enterprise<br>Learning]
+    D2["Mentorship"] --> D["Community Learning"]
+    D1["Knowledge<br>Sharing"] --> D
     
-    C --> C1[Real-world<br>Application]
-    C --> C2[Business<br>Context]
+    C2["Business<br>Context"] --> C["Practice Integration"]
+    C1["Real-world<br>Application"] --> C
     
-    D --> D1[Knowledge<br>Sharing]
-    D --> D2[Mentorship]
+    B2["Enterprise<br>Learning"] --> B["Skills Foundation"]
+    B1["University<br>Education"] --> B
     
-    E --> E1[Adaptive<br>Methods]
-    E --> E2[Emerging<br>Technologies]
+    E --> A["The IASA Atlas Model"]
+    D --> A
+    C --> A
+    B --> A
     
     style A fill:#f96,stroke:#333,stroke-width:2px
     style B,C,D,E fill:#99f,stroke:#333,stroke-width:1px
@@ -184,15 +192,15 @@ As Deloitte's Tech Trends 2025 highlights, engineering and talent are critical p
 
 ```mermaid
 graph LR
-    A[Closing the Skills Gap] --> B[University<br>Partnerships]
-    A --> C[Enterprise<br>Learning Paths]
-    A --> D[Cross-Functional<br>Development]
-    A --> E[Community<br>Engagement]
+    E1["Professional<br>Networks"] --> E["Community<br>Engagement"]
+    D1["Hybrid<br>Expertise"] --> D["Cross-Functional<br>Development"]
+    C1["Existing Staff<br>Development"] --> C["Enterprise<br>Learning Paths"]
+    B1["Future Talent<br>Pipeline"] --> B["University<br>Partnerships"]
     
-    B --> B1[Future Talent<br>Pipeline]
-    C --> C1[Existing Staff<br>Development]
-    D --> D1[Hybrid<br>Expertise]
-    E --> E1[Professional<br>Networks]
+    E --> A["Closing the Skills Gap"]
+    D --> A
+    C --> A
+    B --> A
     
     style A fill:#f96,stroke:#333,stroke-width:2px
     style B,C,D,E fill:#99f,stroke:#333,stroke-width:1px
