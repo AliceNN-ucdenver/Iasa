@@ -310,38 +310,51 @@ Moving from service provider to strategic partner disrupts established hierarchi
 ### The Transformation Roadmap
 
 ```mermaid
-flowchart LR
-    subgraph "Phase 1: Foundation<br>(Months 1-3)"
-        B1["Assess Current<br>Influence Level"]
-        B2["Identify Quick<br>Win Opportunities"]
-        B3["Build Coalition<br>of Supporters"]
-    end
-    
-    subgraph "Phase 2: Credibility<br>(Months 4-6)"
-        C1["Deliver Strategic<br>Quick Wins"]
-        C2["Establish Thought<br>Leadership"]
-        C3["Gain Business<br>Advocates"]
-    end
-    
-    subgraph "Phase 3: Integration<br>(Months 7-12)"
-        D1["Embed in Strategy<br>Processes"]
-        D2["Own Business<br>Metrics"]
-        D3["Lead Innovation<br>Initiatives"]
-    end
-    
-    subgraph "Phase 4: Leadership<br>(Ongoing)"
-        E1["Shape Corporate<br>Strategy"]
-        E2["Drive Market<br>Differentiation"]
-        E3["Create New<br>Business Models"]
-    end
-    
-    B1 --> B2 --> B3 --> C1
-    C1 --> C2 --> C3 --> D1
-    D1 --> D2 --> D3 --> E1
+flowchart TB
+  %% Phase 1
+  subgraph "Phase 1: Foundation (Months 1–3)"
+    direction TB
+    B1["Assess Current<br>Influence Level"]
+    B2["Identify Quick<br>Win Opportunities"]
+    B3["Build Coalition<br>of Supporters"]
+    B1 --> B2 --> B3
+  end
+
+  %% Phase 2
+  subgraph "Phase 2: Credibility (Months 4–6)"
+    direction TB
+    C1["Deliver Strategic<br>Quick Wins"]
+    C2["Establish Thought<br>Leadership"]
+    C3["Gain Business<br>Advocates"]
+    C1 --> C2 --> C3
+  end
+
+  %% Phase 3
+  subgraph "Phase 3: Integration (Months 7–12)"
+    direction TB
+    D1["Embed in Strategy<br>Processes"]
+    D2["Own Business<br>Metrics"]
+    D3["Lead Innovation<br>Initiatives"]
+    D1 --> D2 --> D3
+  end
+
+  %% Phase 4
+  subgraph "Phase 4: Leadership (Ongoing)"
+    direction TB
+    E1["Shape Corporate<br>Strategy"]
+    E2["Drive Market<br>Differentiation"]
+    E3["Create New<br>Business Models"]
     E1 --> E2 --> E3
-    
-    style B1 fill:#faa,stroke:#333,stroke-width:1px
-    style E3 fill:#afa,stroke:#333,stroke-width:1px
+  end
+
+  %% Chain the phases vertically
+  B3 --> C1
+  C3 --> D1
+  D3 --> E1
+
+  %% Styling
+  style B1 fill:#faa,stroke:#333,stroke-width:1px
+  style E3 fill:#afa,stroke:#333,stroke-width:1px
 ```
 
 ### Practical Transformation Strategies with Change Management
