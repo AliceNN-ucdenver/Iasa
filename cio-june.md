@@ -452,35 +452,40 @@ Traditional IT metrics fail to capture the true value of architectural enablemen
 
 ```mermaid
 flowchart TB
-  %% Stack the three metric groups vertically
-  subgraph "Strategic Value Creation"
+  %% -- group 1 --
+  subgraph A["Strategic Value Creation"]
     direction TB
-    A1["AI Revenue Attribution<br/>% of revenue directly traceable<br/>to AI-enabled capabilities"]
-    A2["Innovation Velocity Index<br/>Time from AI concept<br/>to production value"]
-    A3["Architectural Leverage Ratio<br/>Business outcomes per<br/>architectural investment dollar"]
-    A1 & A2 & A3 --> D["Business Impact<br/>Multiplier"]
+    A1["AI Revenue Attribution<br>% of revenue directly traceable<br>to AI-enabled capabilities"]
+    A2["Innovation Velocity Index<br>Time from AI concept<br>to production value"]
+    A3["Architectural Leverage Ratio<br>Business outcomes per<br>architectural investment dollar"]
+    A1 --> A2 --> A3 --> D["Business Impact<br>Multiplier"]
   end
 
-  subgraph "Ecosystem Health"
+  %% -- group 2 --
+  subgraph B["Ecosystem Health"]
     direction TB
-    B1["AI Democratization Score<br/>% of non-technical staff<br/>successfully deploying AI"]
-    B2["Cross-Pollination Rate<br/>AI patterns reused across<br/>business domains"]
-    B3["Ecosystem Resilience Index<br/>System adaptability to<br/>market disruptions"]
-    B1 & B2 & B3 --> E["Organizational<br/>Agility Score"]
+    B1["AI Democratization Score<br>% of non-technical staff<br>successfully deploying AI"]
+    B2["Cross-Pollination Rate<br>AI patterns reused across<br>business domains"]
+    B3["Ecosystem Resilience Index<br>System adaptability to<br>market disruptions"]
+    B1 --> B2 --> B3 --> E["Organizational<br>Agility Score"]
   end
 
-  subgraph "Future Readiness"
+  %% -- group 3 --
+  subgraph C["Future Readiness"]
     direction TB
-    C1["Technical Debt Decay Rate<br/>Speed of legacy system<br/>modernization via AI"]
-    C2["Capability Half-Life<br/>Time before architectural<br/>patterns become obsolete"]
-    C3["Talent Magnetism Score<br/>Quality of AI talent<br/>attracted and retained"]
-    C1 & C2 & C3 --> F["Strategic<br/>Optionality Index"]
+    C1["Technical Debt Decay Rate<br>Speed of legacy system<br>modernization via AI"]
+    C2["Capability Half-Life<br>Time before architectural<br>patterns become obsolete"]
+    C3["Talent Magnetism Score<br>Quality of AI talent<br>attracted and retained"]
+    C1 --> C2 --> C3 --> F["Strategic<br>Optionality Index"]
   end
 
-  %% Converge into the final dashboard
-  D & E & F --> G["AI Architecture<br/>Value Dashboard"]
 
-  %% Styling
+  %% -- converge metrics to dashboard --
+  D --> G["AI Architecture<br>Value Dashboard"]
+  E --> G
+  F --> G
+
+  %% -- styling nodes individually to avoid artifacts --
   style G fill:#f96,stroke:#333,stroke-width:3px
   style D fill:#99f,stroke:#333,stroke-width:2px
   style E fill:#99f,stroke:#333,stroke-width:2px
