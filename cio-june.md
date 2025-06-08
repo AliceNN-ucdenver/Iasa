@@ -127,7 +127,11 @@ Traditional architecture approaches in many enterprises are failing to deliver t
 
 ### Escaping the Integration Team Trap
 
-When architecture teams become merely sophisticated integration units, connecting systems that others have decided to buy or build, they lose their strategic influence. This relegation to technical plumbing work creates a vicious cycle:
+When architecture teams become merely sophisticated integration units, connecting systems that others have decided to buy or build, they lose their strategic influence. This relegation to technical plumbing work creates a vicious cycle where each new integration compounds organizational rigidity. Every additional connection point between disparate systems reduces overall flexibility, as changes to any single system ripple through multiple integration layers, requiring extensive regression testing and coordination across teams.
+
+This integration accumulation follows a devastating mathematical progression: as the number of systems grows linearly, the potential integration points grow exponentially. A landscape with 10 systems has up to 45 potential integration points, but 20 systems create up to 190 potential connections. Each integration adds maintenance overhead, extends release cycles, and diverts resources from innovation to keeping the lights on. 
+
+The result is an IT organization where 70-80% of capacity is consumed by maintaining existing integrations, leaving only scraps for new development. Architecture teams find themselves managing an ever-growing spaghetti of point-to-point connections, spending more time firefighting integration failures than designing strategic capabilities. This "integration tax" compounds over time, creating longer development cycles, increased brittleness, and reduced agility to respond to market changes.
 
 ```mermaid
 flowchart TD
