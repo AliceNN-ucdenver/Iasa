@@ -451,33 +451,40 @@ Traditional IT metrics fail to capture the true value of architectural enablemen
 ### Next-Generation Metrics Framework
 
 ```mermaid
-flowchart TD
-    subgraph "Strategic Value Creation"
-        A1["AI Revenue Attribution<br>% of revenue directly traceable<br>to AI-enabled capabilities"] 
-        A2["Innovation Velocity Index<br>Time from AI concept<br>to production value"]
-        A3["Architectural Leverage Ratio<br>Business outcomes per<br>architectural investment dollar"]
-    end
-    
-    subgraph "Ecosystem Health"
-        B1["AI Democratization Score<br>% of non-technical staff<br>successfully deploying AI"]
-        B2["Cross-Pollination Rate<br>AI patterns reused across<br>business domains"]
-        B3["Ecosystem Resilience Index<br>System adaptability to<br>market disruptions"]
-    end
-    
-    subgraph "Future Readiness"
-        C1["Technical Debt Decay Rate<br>Speed of legacy system<br>modernization via AI"]
-        C2["Capability Half-Life<br>Time before architectural<br>patterns become obsolete"]
-        C3["Talent Magnetism Score<br>Quality of AI talent<br>attracted and retained"]
-    end
-    
-    A1 & A2 & A3 --> D["Business Impact<br>Multiplier"]
-    B1 & B2 & B3 --> E["Organizational<br>Agility Score"]
-    C1 & C2 & C3 --> F["Strategic<br>Optionality Index"]
-    
-    D & E & F --> G["AI Architecture<br>Value Dashboard"]
-    
-    style G fill:#f96,stroke:#333,stroke-width:3px
-    style D,E,F fill:#99f,stroke:#333,stroke-width:2px
+flowchart TB
+  %% Stack the three metric groups vertically
+  subgraph "Strategic Value Creation"
+    direction TB
+    A1["AI Revenue Attribution<br/>% of revenue directly traceable<br/>to AI-enabled capabilities"]
+    A2["Innovation Velocity Index<br/>Time from AI concept<br/>to production value"]
+    A3["Architectural Leverage Ratio<br/>Business outcomes per<br/>architectural investment dollar"]
+    A1 & A2 & A3 --> D["Business Impact<br/>Multiplier"]
+  end
+
+  subgraph "Ecosystem Health"
+    direction TB
+    B1["AI Democratization Score<br/>% of non-technical staff<br/>successfully deploying AI"]
+    B2["Cross-Pollination Rate<br/>AI patterns reused across<br/>business domains"]
+    B3["Ecosystem Resilience Index<br/>System adaptability to<br/>market disruptions"]
+    B1 & B2 & B3 --> E["Organizational<br/>Agility Score"]
+  end
+
+  subgraph "Future Readiness"
+    direction TB
+    C1["Technical Debt Decay Rate<br/>Speed of legacy system<br/>modernization via AI"]
+    C2["Capability Half-Life<br/>Time before architectural<br/>patterns become obsolete"]
+    C3["Talent Magnetism Score<br/>Quality of AI talent<br/>attracted and retained"]
+    C1 & C2 & C3 --> F["Strategic<br/>Optionality Index"]
+  end
+
+  %% Converge into the final dashboard
+  D & E & F --> G["AI Architecture<br/>Value Dashboard"]
+
+  %% Styling
+  style G fill:#f96,stroke:#333,stroke-width:3px
+  style D fill:#99f,stroke:#333,stroke-width:2px
+  style E fill:#99f,stroke:#333,stroke-width:2px
+  style F fill:#99f,stroke:#333,stroke-width:2px
 ```
 
 ### Breakthrough Metrics Categories
