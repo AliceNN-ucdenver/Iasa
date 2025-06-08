@@ -79,8 +79,16 @@ flowchart LR
     A4 -.->|Transform| B4
     A5 -.->|Transform| B5
     
-    style A1,A2,A3,A4,A5 fill:#f55,stroke:#333,stroke-width:1px
-    style B1,B2,B3,B4,B5 fill:#5f5,stroke:#333,stroke-width:1px
+    style A1 fill:#f55,stroke:#333,stroke-width:1px
+    style A2 fill:#f55,stroke:#333,stroke-width:1px
+    style A3 fill:#f55,stroke:#333,stroke-width:1px
+    style A4 fill:#f55,stroke:#333,stroke-width:1px
+    style A5 fill:#f55,stroke:#333,stroke-width:1px
+    style B1 fill:#5f5,stroke:#333,stroke-width:1px
+    style B2 fill:#5f5,stroke:#333,stroke-width:1px
+    style B3 fill:#5f5,stroke:#333,stroke-width:1px
+    style B4 fill:#5f5,stroke:#333,stroke-width:1px
+    style B5 fill:#5f5,stroke:#333,stroke-width:1px
 ```
 
 ### Breaking the Execution-Only Mindset
