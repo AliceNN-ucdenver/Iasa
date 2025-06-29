@@ -143,7 +143,7 @@ Architecture teams face three psychological barriers when attempting this transf
 - Gradual escalation: Build influence incrementally rather than demanding immediate authority
 - Coalition building: Partner with progressive business leaders who value technical insight
 
-According to [McKinsey research](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward-strategies-for-ceos), organizations that successfully integrate technology strategy with business strategy achieve 2.4x higher revenue growth than those that don't.
+According to [McKinsey research](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work), "companies that invest strategically can go beyond using AI to drive incremental value and instead create transformative change."
 
 The transformation requires establishing a new social contract: moving from "Architecture ensures technical standards compliance" to "Architecture enables competitive advantage through technology." This shift demands mutual accountability where business includes architects early while architects own business outcomes.
 
@@ -166,7 +166,7 @@ The transformation requires establishing a new social contract: moving from "Arc
 - Establish cross-functional architecture council
 - Develop AI architecture pattern library
 
-According to [Gartner research](https://www.gartner.com/en/information-technology/insights/enterprise-architecture), organizations with mature enterprise architecture practices are 23% more likely to achieve their digital business goals.
+According to [Gartner research](https://www.gartner.com/smarterwithgartner/enterprise-architecture-enables-digital-innovation), enterprise architecture programs are increasingly focusing on information architecture as central to digitalization initiatives, with EA evolving from a support function into a highly strategic one responsible for designing intelligent information architecture.
 
 ## The Future of Competitive Advantage
 
