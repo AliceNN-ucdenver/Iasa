@@ -166,7 +166,7 @@ The transformation requires establishing a new social contract: moving from "Arc
 - Establish cross-functional architecture council
 - Develop AI architecture pattern library
 
-According to [Gartner research](https://www.gartner.com/smarterwithgartner/enterprise-architecture-enables-digital-innovation), enterprise architecture programs are increasingly focusing on information architecture as central to digitalization initiatives, with EA evolving from a support function into a highly strategic one responsible for designing intelligent information architecture.
+According to [Gartner research](https://www.gartner.com/smarterwithgartner/enterprise-architecture-enables-digital-innovation), "Today's enterprise architects are responsible for designing intelligence into the business and operating models, identifying ways to help their organization use data, analytics and artificial intelligence to plan, track and manage digital business investments."
 
 ## The Future of Competitive Advantage
 
