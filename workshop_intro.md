@@ -1,3 +1,7 @@
+Of course. Here is the full report in Markdown format, including a complete list of references with links where available.
+
+***
+
 # Engineering in the Agentic Age: A Framework for Maintainable and Secure AI-Assisted Development
 
 ## Part I: The New Paradigm of Software Development
@@ -328,75 +332,71 @@ Adherence to these rules fosters a culture of responsible innovation. It allows 
 
 The culmination of these practices points to a profound evolution in the role of the software developer. The value is shifting away from the mechanical act of typing code and toward the strategic orchestration of intelligent systems. The developer of the future is a "conductor," directing a symphony of AI agents, prompts, and automated verification tools. Their expertise is expressed not through lines of code written, but through the quality of their high-level designs, the precision of their specifications, the critical depth of their evaluations, and their ability to see the system as a whole. This is the ultimate mindset required to move "beyond vibe coding" and become a true architect of the agentic age.
 
-Of course. Here is a list of the references used throughout the report, formatted for your convenience.
-
-***
-
 ### References
 
 1.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media.
-2.  Karpathy, A. (2025). Coined the term "vibe coding" to describe a prompt-first, exploratory approach to software creation, as cited in various tech publications and social media discussions.
-3.  Merriam-Webster. (2025). Vibe Coding. In *Merriam-Webster.com dictionary*. Retrieved October 6, 2025.
-4.  *The Times of India*. (2025, March 2). What is 'vibe code'? Former Tesla AI director Andrej Karpathy defines a new era in AI-driven development.
-5.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Concept of AI as a "very eager junior developer").
-6.  Özgür, A. (2025, April 4). Ship with discipline. *aliozgur.net*.
-7.  Willison, S. (2025, September 4). Beyond Vibe Coding. *Simon Willison's Weblog*.
-8.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Concept of AI as a "pair programmer").
-9.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (On the need for human supervision of AI).
-10. Google Cloud. (n.d.). *What are AI agents?* Retrieved October 6, 2025, from [https://cloud.google.com/discover/what-are-ai-agents](https://cloud.google.com/discover/what-are-ai-agents).
-11. Deloitte. (2025). *Autonomous generative AI agents, still under development*. Deloitte Insights.
-12. IBM. (n.d.). *Multi-agent system*. IBM Think.
-13. Kinde. (n.d.). *Background Coding Agents 101: From Task to Draft PR*. Retrieved October 6, 2025.
-14. GitHub. (2025, September 11). *GitHub Copilot coding agent 101: Getting started with agentic workflows on GitHub*. GitHub Blog.
-15. Anthropic. (n.d.). *Building effective agents*. Anthropic Research.
-16. Anthropic. (2025, April 18). *Claude Code: Best practices for agentic coding*. Anthropic Engineering.
-17. O'Reilly. (n.d.). *Coding for the Agentic World*. Retrieved October 6, 2025.
-18. Toloka. (n.d.). *AI Coding Agents: What They Are, How They Work, and How to Build One*. Retrieved October 6, 2025.
-19. Anthropic. (2025, September 29). *Enabling Claude Code to work more autonomously*. Anthropic News.
-20. Osmani, A. (2024, December 4). The 70% Problem: Hard truths about AI-assisted coding. *Elevate with Addy Osmani*.
-21. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Chapter 3: The 70% Problem).
-22. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Chapter 4: Beyond the 70%).
-23. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (The "two steps back" antipattern).
-24. Google Cloud. (n.d.). *What is prompt engineering?* Retrieved October 6, 2025.
-25. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Chapter 2: The Art of the Prompt).
-26. Microsoft Azure. (n.d.). *Prompt engineering techniques*. Retrieved October 6, 2025.
+2.  Karpathy, A. (2025, February 2). *X*. Retrieved from [https://en.wikipedia.org/wiki/Vibe_coding](https://en.wikipedia.org/wiki/Vibe_coding)
+3.  Merriam-Webster. (2025, March 8). Vibe Coding. In *Merriam-Webster.com dictionary*. Retrieved from [https://www.merriam-webster.com/dictionary/vibe%20coding](https://www.merriam-webster.com/dictionary/vibe%20coding)
+4.  *The Times of India*. (2025, March 2). What is 'vibe code'? Former Tesla AI director Andrej Karpathy defines a new era in AI-driven development. Retrieved from [https://en.wikipedia.org/wiki/Vibe_coding](https://en.wikipedia.org/wiki/Vibe_coding)
+5.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Concept of AI as a "very eager junior developer"). O'Reilly Media.
+6.  Willison, S. (2025, September 4). Beyond Vibe Coding. *Simon Willison's Weblog*. Retrieved from(https://simonwillison.net/2025/Sep/4/beyond-vibe-coding/)
+7.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (AI-assisted engineering). O'Reilly Media.
+8.  Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Concept of AI as a "pair programmer"). O'Reilly Media.
+9.  Özgür, A. (2025, April 4). Ship with discipline. *aliozgur.net*. Retrieved from [https://aliozgur.net/2025/04/04/vibe-coding/](https://aliozgur.net/2025/04/04/vibe-coding/)
+10. Google Cloud. (n.d.). *What are AI agents?* Retrieved October 6, 2025, from [https://cloud.google.com/discover/what-are-ai-agents](https://cloud.google.com/discover/what-are-ai-agents)
+11. Deloitte. (2025). *Autonomous generative AI agents, still under development*. Deloitte Insights. Retrieved from [https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/autonomous-generative-ai-agents-still-under-development.html](https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/autonomous-generative-ai-agents-still-under-development.html)
+12. IBM. (n.d.). *Multi-agent system*. IBM Think. Retrieved from [https://www.ibm.com/think/topics/multiagent-system](https://www.ibm.com/think/topics/multiagent-system)
+13. Toloka. (n.d.). *AI Coding Agents: What They Are, How They Work, and How to Build One*. Retrieved October 6, 2025, from [https://toloka.ai/blog/ai-coding-agents-what-they-are-how-they-work-and-how-to-build-one/](https://toloka.ai/blog/ai-coding-agents-what-they-are-how-they-work-and-how-to-build-one/)
+14. Kinde. (n.d.). *Background Coding Agents 101: From Task to Draft PR*. Retrieved October 6, 2025, from [https://kinde.com/learn/ai-for-software-engineering/ai-agents/background-coding-agents-101-from-task-to-draft-pr/](https://kinde.com/learn/ai-for-software-engineering/ai-agents/background-coding-agents-101-from-task-to-draft-pr/)
+15. Anthropic. (n.d.). *Building effective agents*. Anthropic Research. Retrieved from [https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
+16. Anthropic. (2025, April 18). *Claude Code: Best practices for agentic coding*. Anthropic Engineering. Retrieved from [https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+17. Anthropic. (2025, September 29). *Enabling Claude Code to work more autonomously*. Anthropic News. Retrieved from [https://anthropic.com/news/enabling-claude-code-to-work-more-autonomously](https://anthropic.com/news/enabling-claude-code-to-work-more-autonomously)
+18. O'Reilly. (n.d.). *Coding for the Agentic World*. Retrieved October 6, 2025, from(https://www.oreilly.com/AgenticWorld/)
+19. Toloka. (n.d.). *AI Coding Agents: What They Are, How They Work, and How to Build One*. Retrieved October 6, 2025, from [https://toloka.ai/blog/ai-coding-agents-what-they-are-how-they-work-and-how-to-build-one/](https://toloka.ai/blog/ai-coding-agents-what-they-are-how-they-work-and-how-to-build-one/)
+20. Osmani, A. (2024, December 4). The 70% Problem: Hard truths about AI-assisted coding. *Elevate with Addy Osmani*. Retrieved from [https://addyosmani.com/blog/ai-assisted-engineering/](https://addyosmani.com/blog/ai-assisted-engineering/)
+21. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Chapter 3: The 70% Problem). O'Reilly Media. Retrieved from [https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/ch03.html](https://www.oreilly.com/library/view/beyond-vibe-coding/9798341634749/ch03.html)
+22. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Chapter 4: Beyond the 70%). O'Reilly Media.
+23. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (The "two steps back" antipattern). O'Reilly Media.
+24. Google Cloud. (n.d.). *What is prompt engineering?* Retrieved October 6, 2025, from [https://cloud.google.com/discover/what-is-prompt-engineering](https://cloud.google.com/discover/what-is-prompt-engineering)
+25. Islam, N. (2025, September 4). Prompt Engineering For Professionals and Security: A Practical Guide for LLMs, AI Agents, and Agentic Workflows. *Medium*. Retrieved from [https://medium.com/@nomannayeem/prompt-engineering-for-professionals-and-security-a-practical-guide-for-llms-ai-agents-and-a9d0a61ae25a](https://medium.com/@nomannayeem/prompt-engineering-for-professionals-and-security-a-practical-guide-for-llms-ai-agents-and-a9d0a61ae25a)
+26. Microsoft Azure. (n.d.). *Prompt engineering techniques*. Retrieved October 6, 2025, from [https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering)
 27. Gulli, A. (2025). *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*. (Appendix A: Advanced Prompting Techniques).
 28. Gulli, A. (2025). *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*. (Appendix A: Advanced Prompting Techniques).
-29. Dondapati, N. S. (n.d.). Exploring the Role of Prompt Engineering in Secure Code Generation. *DEV Community*.
-30. Islam, N. (2025, September 4). Prompt Engineering For Professionals and Security: A Practical Guide for LLMs, AI Agents, and Agentic Workflows. *Medium*.
-31. Security Journey. (2025, August 26). *How to Write Secure Generative AI Prompts (with Examples)*.
-32. Reddit. (n.d.). *A collection of prompts for generating high quality code*. r/ChatGPTCoding.
-33. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (AI as a learning catalyst).
-34. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Chapter 5: Understanding Generated Code).
-35. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Debugging strategies).
-36. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. O'Reilly Media. (Chapter 3: The Golden Rules of Vibe Coding).
-37. Skywork AI. (2025, September 30). *Claude Code 2.0 Best Practices & AI Coding Workflow in 2025*.
-38. eesel.ai. (n.d.). *Claude Code Best Practices*. Retrieved October 6, 2025.
-39. Visual Studio Code. (2025, February 24). *Introducing Copilot agent mode*. Visual Studio Code Blog.
-40. GitHub. (n.d.). *Piloting GitHub Copilot coding agent*. GitHub Docs.
-41. OWASP. (n.d.). *OWASP Top 10 for LLM Applications*. Retrieved October 6, 2025.
-42. Endor Labs. (n.d.). *The Most Common Security Vulnerabilities in AI-Generated Code*. Retrieved October 6, 2025.
-43. Endor Labs. (n.d.). *The Most Common Security Vulnerabilities in AI-Generated Code*. (Novel security risks).
-44. Graphite. (n.d.). *How to Review Code Written by AI*. Retrieved October 6, 2025.
-45. Osmani, A. (2024, November 26). Automated Decision Logs. *addyosmani.com*.
+29. Dondapati, N. S. (n.d.). Exploring the Role of Prompt Engineering in Secure Code Generation. *DEV Community*. Retrieved from [https://dev.to/nagasuresh_dondapati_d5df/exploring-the-role-of-prompt-engineering-in-secure-code-generation-3ahb](https://dev.to/nagasuresh_dondapati_d5df/exploring-the-role-of-prompt-engineering-in-secure-code-generation-3ahb)
+30. Google Cloud. (n.d.). *What is prompt engineering?* Retrieved October 6, 2025, from [https://cloud.google.com/discover/what-is-prompt-engineering](https://cloud.google.com/discover/what-is-prompt-engineering)
+31. Security Journey. (2025, August 26). *How to Write Secure Generative AI Prompts (with Examples)*. Retrieved from [https://www.securityjourney.com/post/how-to-write-secure-generative-ai-prompts-with-examples](https://www.securityjourney.com/post/how-to-write-secure-generative-ai-prompts-with-examples)
+32. Reddit. (n.d.). *A collection of prompts for generating high quality code*. r/ChatGPTCoding. Retrieved from(https://www.reddit.com/r/ChatGPTCoding/comments/1f51y8s/a_collection_of_prompts_for_generating_high/)
+33. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (AI as a learning catalyst). O'Reilly Media.
+34. Graphite. (n.d.). *How to Review Code Written by AI*. Retrieved October 6, 2025, from [https://graphite.dev/guides/how-to-review-code-written-by-ai](https://graphite.dev/guides/how-to-review-code-written-by-ai)
+35. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Debugging strategies). O'Reilly Media.
+36. Osmani, A. (2025). *Beyond Vibe Coding: From Coder to AI-Era Developer*. (Chapter 3: The Golden Rules of Vibe Coding). O'Reilly Media.
+37. eesel.ai. (n.d.). *Claude Code Best Practices*. Retrieved October 6, 2025, from [https://www.eesel.ai/blog/claude-code-best-practices](https://www.eesel.ai/blog/claude-code-best-practices)
+38. Anthropic. (2025, April 18). *Claude Code: Best practices for agentic coding*. Anthropic Engineering. Retrieved from [https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+39. Visual Studio Code. (2025, February 24). *Introducing Copilot agent mode*. Visual Studio Code Blog. Retrieved from [https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
+40. GitHub. (n.d.). *Piloting GitHub Copilot coding agent*. GitHub Docs. Retrieved from [https://docs.github.com/en/copilot/tutorials/coding-agent/pilot-coding-agent](https://docs.github.com/en/copilot/tutorials/coding-agent/pilot-coding-agent)
+41. OWASP. (n.d.). *OWASP Top 10 for LLM Applications*. Retrieved October 6, 2025, from [https://genai.owasp.org/](https://genai.owasp.org/)
+42. Endor Labs. (n.d.). *The Most Common Security Vulnerabilities in AI-Generated Code*. Retrieved October 6, 2025, from [https://www.endorlabs.com/learn/the-most-common-security-vulnerabilities-in-ai-generated-code](https://www.endorlabs.com/learn/the-most-common-security-vulnerabilities-in-ai-generated-code)
+43. Endor Labs. (n.d.). *The Most Common Security Vulnerabilities in AI-Generated Code*. (Novel security risks). Retrieved from [https://www.endorlabs.com/learn/the-most-common-security-vulnerabilities-in-ai-generated-code](https://www.endorlabs.com/learn/the-most-common-security-vulnerabilities-in-ai-generated-code)
+44. Graphite. (n.d.). *How to Review Code Written by AI*. Retrieved October 6, 2025, from [https://graphite.dev/guides/how-to-review-code-written-by-ai](https://graphite.dev/guides/how-to-review-code-written-by-ai)
+45. Osmani, A. (2024, November 26). Automated Decision Logs. *addyosmani.com*. Retrieved from [https://addyosmani.com/blog/automated-decision-logs/](https://addyosmani.com/blog/automated-decision-logs/)
 46. Gulli, A. (2025). *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*.
-47. PPC Land. (n.d.). *Google Engineer Releases Free 400-Page Guide to Agentic AI Systems*. Retrieved October 6, 2025.
-48. aufaitUX. (n.d.). *A Comprehensive Guide on Agentic AI Design Patterns*. Retrieved October 6, 2025.
-49. Medium. (n.d.). *Reflection Agents with LangGraph*.
-50. Analytics Vidhya. (2024, October). *Agentic AI: Reflection Pattern*.
+47. PPC Land. (n.d.). *Google Engineer Releases Free 400-Page Guide to Agentic AI Systems*. Retrieved October 6, 2025, from [https://ppc.land/google-engineer-releases-free-400-page-guide-to-agentic-ai-systems/](https://ppc.land/google-engineer-releases-free-400-page-guide-to-agentic-ai-systems/)
+48. aufaitUX. (n.d.). *A Comprehensive Guide on Agentic AI Design Patterns*. Retrieved October 6, 2025, from [https://www.aufaitux.com/blog/agentic-ai-design-patterns-guide/](https://www.aufaitux.com/blog/agentic-ai-design-patterns-guide/)
+49. Medium. (n.d.). *Reflection Agents with LangGraph*. Retrieved from [https://medium.com/aimonks/reflection-agents-with-langgraph-agentic-llm-based-applications-87e43c27adc7](https://medium.com/aimonks/reflection-agents-with-langgraph-agentic-llm-based-applications-87e43c27adc7)
+50. Analytics Vidhya. (2024, October). *Agentic AI: Reflection Pattern*. Retrieved from [https://www.analyticsvidhya.com/blog/2024/10/agentic-ai-reflection-pattern/](https://www.analyticsvidhya.com/blog/2024/10/agentic-ai-reflection-pattern/)
 51. Gulli, A. (2025). *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*. (Chapter 4: Reflection).
-52. Pinecone. (n.d.). *LangChain Tools*. Retrieved October 6, 2025.
-53. Anthropic. (n.d.). *Writing tools for agents*. Anthropic Engineering.
+52. Pinecone. (n.d.). *LangChain Tools*. Retrieved October 6, 2025, from [https://www.pinecone.io/learn/series/langchain/langchain-tools/](https://www.pinecone.io/learn/series/langchain/langchain-tools/)
+53. Anthropic. (n.d.). *Writing tools for agents*. Anthropic Engineering. Retrieved from [https://www.anthropic.com/engineering/writing-tools-for-agents](https://www.anthropic.com/engineering/writing-tools-for-agents)
 54. Gulli, A. (2025). *Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems*. (Chapter 5: Tool Use).
-55. LangChain Blog. (n.d.). *Planning for Agents*. Retrieved October 6, 2025.
-56. DeepLearning.AI. (n.d.). *Agentic Design Patterns Part 4: Planning*. The Batch.
-57. IBM. (n.d.). *Multi-agent system*. IBM Think.
-58. Wikipedia. (n.d.). *Multi-agent system*. Retrieved October 6, 2025.
-59. DeepMind. (2025, October 6). *Introducing CodeMender: an AI agent for code security*.
-60. SiliconANGLE. (2025, October 6). *Google DeepMind unveils CodeMender, an AI agent that autonomously patches software vulnerabilities*.
-61. Artificial Intelligence News. (n.d.). *Google's new AI agent rewrites code to automate vulnerability fixes*. Retrieved October 6, 2025.
-62. StartupHub.ai. (2025, October 6). *CodeMender AI is the new sheriff for open-source code*.
-63. TechBuzz.ai. (n.d.). *Google launches CodeMender AI agent to fix code vulnerabilities*. Retrieved October 6, 2025.
-64. Reddit. (n.d.). *Google DeepMind introduces new AI agent for code security - Codemender*. r/singularity.
-65. C# Corner. (n.d.). *Google Launches CodeMender, New AI Vulnerability Reward Program, and Secure AI Framework 2.0*. Retrieved October 6, 2025.
-66. Artificial Intelligence News. (n.d.). *Google's new AI agent rewrites code to automate vulnerability fixes*. (Multi-agent architecture).
+55. LangChain Blog. (n.d.). *Planning for Agents*. Retrieved October 6, 2025, from [https://blog.langchain.com/planning-for-agents/](https://blog.langchain.com/planning-for-agents/)
+56. DeepLearning.AI. (n.d.). *Agentic Design Patterns Part 4: Planning*. The Batch. Retrieved from [https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/](https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-4-planning/)
+57. IBM. (n.d.). *Multi-agent system*. IBM Think. Retrieved from [https://www.ibm.com/think/topics/multiagent-system](https://www.ibm.com/think/topics/multiagent-system)
+58. Wikipedia. (n.d.). *Multi-agent system*. Retrieved October 6, 2025, from [https://en.wikipedia.org/wiki/Multi-agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
+59. DeepMind. (2025, October 6). *Introducing CodeMender: an AI agent for code security*. Retrieved from [https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/](https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/)
+60. SiliconANGLE. (2025, October 6). *Google DeepMind unveils CodeMender, an AI agent that autonomously patches software vulnerabilities*. Retrieved from [https://siliconangle.com/2025/10/06/google-deepmind-unveils-codemender-ai-agent-autonomously-patches-software-vulnerabilities/](https://siliconangle.com/2025/10/06/google-deepmind-unveils-codemender-ai-agent-autonomously-patches-software-vulnerabilities/)
+61. Artificial Intelligence News. (n.d.). *Google's new AI agent rewrites code to automate vulnerability fixes*. Retrieved October 6, 2025, from [https://www.artificialintelligence-news.com/news/google-new-ai-agent-rewrites-code-automate-vulnerability-fixes/](https://www.artificialintelligence-news.com/news/google-new-ai-agent-rewrites-code-automate-vulnerability-fixes/)
+62. StartupHub.ai. (2025, October 6). *CodeMender AI is the new sheriff for open-source code*. Retrieved from [https://www.startuphub.ai/ai-news/startup-news/2025/codemender-ai-is-the-new-sheriff-for-open-source-code/](https://www.startuphub.ai/ai-news/startup-news/2025/codemender-ai-is-the-new-sheriff-for-open-source-code/)
+63. TechBuzz.ai. (n.d.). *Google launches CodeMender AI agent to fix code vulnerabilities*. Retrieved October 6, 2025, from [https://www.techbuzz.ai/articles/google-launches-codemender-ai-agent-to-fix-code-vulnerabilities](https://www.techbuzz.ai/articles/google-launches-codemender-ai-agent-to-fix-code-vulnerabilities)
+64. Reddit. (n.d.). *Google DeepMind introduces new AI agent for code security - Codemender*. r/singularity. Retrieved from [https://www.reddit.com/r/singularity/comments/1nzjgxf/google_deepmind_introduces_new_ai_agent_for_code/](https://www.reddit.com/r/singularity/comments/1nzjgxf/google_deepmind_introduces_new_ai_agent_for_code/)
+65. C# Corner. (n.d.). *Google Launches CodeMender, New AI Vulnerability Reward Program, and Secure AI Framework 2.0*. Retrieved October 6, 2025, from [https://www.c-sharpcorner.com/news/google-launches-codemender-new-ai-vulnerability-reward-program-and-secure-ai-framework-20](https://www.c-sharpcorner.com/news/google-launches-codemender-new-ai-vulnerability-reward-program-and-secure-ai-framework-20)
+66. Artificial Intelligence News. (n.d.). *Google's new AI agent rewrites code to automate vulnerability fixes*. (Multi-agent architecture). Retrieved from [https://www.artificialintelligence-news.com/news/google-new-ai-agent-rewrites-code-automate-vulnerability-fixes/](https://www.artificialintelligence-news.com/news/google-new-ai-agent-rewrites-code-automate-vulnerability-fixes/)
