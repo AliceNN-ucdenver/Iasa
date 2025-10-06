@@ -1,7 +1,3 @@
-Of course. Here is the full report in Markdown format, including a complete list of references with links where available.
-
-***
-
 # Engineering in the Agentic Age: A Framework for Maintainable and Secure AI-Assisted Development
 
 ## Part I: The New Paradigm of Software Development
