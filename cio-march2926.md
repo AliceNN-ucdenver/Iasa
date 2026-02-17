@@ -267,25 +267,18 @@ Automated Checks (Pre‑Merge)
 6. IRA updated if threat model changed
 
 If checks fail → PR blocked
+
 If checks pass → reviewers assigned
 
-What We Store (MVP)
+Unified intake
 
-- Architecture diagrams + ADRs
-- Threat model
-- IRA + VISM + data classification
-- Runbook + service mapping
-- Repo index
-- Governance decisions
-- What the BAR Enables
-
-- Unified intake
 - Automatic threat modeling
 - Automatic risk scoping
 - Automatic governance packaging
 - Faster approvals
 - Clearer decision history
 - Drift detection
+
 
 ## VII. Getting started: The Cheif Architect action plan
 
