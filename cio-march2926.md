@@ -209,35 +209,83 @@ Index of underlying repos
 ```markdown{.line-numbers}
 /<business-application>/
 |
-├── app.yaml
+├── app.yaml (business application meta data, criticality, lifecycle)
 |
 ├── architecture/
-│   ├── conceptual.png
-│   ├── logical.png
-│   ├── context.png
-│   ├── sequence.png
+│   ├── conceptual.png (conceptual diagram - generated from DSL (e.g. CALM)
+│   ├── logical.png (conceptual diagram - generated from DSL (e.g. CALM)
+│   ├── context.png (conceptual diagram - generated from DSL (e.g. CALM)
+│   ├── sequence.png (conceptual diagram - generated from DSL (e.g. CALM)
 │   └── ADRs/
 │       └── ADR-0001.md
 |
 ├── security/
-│   └── threat-model.json
+│   └── threat-model.json (uses DSL - logical, context, sequence, data classification, and repos for larger view)
 |
 ├── information-risk/
-│   ├── ira.md
-│   ├── vism.yaml
-│   └── data-classification.yaml
+│   ├── ira.md (information risk assessment)
+│   ├── vism.yaml (third party risk)
+│   └── data-classification.yaml (data classification fields)
 |
 ├── operations/
-│   ├── application-runbook.md
-│   └── service-mapping.yaml
+│   ├── application-runbook.md (operational readiness)
+│   └── service-mapping.yaml (dependencies)
 |
 ├── repos/
-│   └── index.yaml
+│   └── index.yaml (individual repos that make up the business applications)
 |
 └── governance/
-    ├── decisions.yaml
+    ├── decisions.yaml (governance decisions - map to ADRs)
 ```
 
+### Governance‑as‑Code Workflow (Fully Defined)
+This lightweight model encodes:
+
+- Architecture‑as‑Code
+- Security Architecture‑as‑Code (Threat Model)
+- Information Risk‑as‑Code
+- Governance‑as‑Code
+
+#### PR Trigger Rules
+A governance review is triggered when a PR modifies:
+
+```markdown
+architecture/
+security/threat-model.json
+information-risk/
+operations/
+governance/
+```
+
+Automated Checks (Pre‑Merge)
+
+1. YAML schema validation
+2. Required files present (conceptual, logical, threat model, IRA, runbook)
+3. Cross‑file consistency (e.g., repos in index.yaml appear in service-mapping.yaml)
+4. Mandatory ADR for changes in architecture
+5. Threat model updated if logical/context changed
+6. IRA updated if threat model changed
+
+If checks fail → PR blocked
+If checks pass → reviewers assigned
+
+What We Store (MVP)
+
+- Architecture diagrams + ADRs
+- Threat model
+- IRA + VISM + data classification
+- Runbook + service mapping
+- Repo index
+- Governance decisions
+- What the BAR Enables
+
+- Unified intake
+- Automatic threat modeling
+- Automatic risk scoping
+- Automatic governance packaging
+- Faster approvals
+- Clearer decision history
+- Drift detection
 
 ## VII. Getting started: The Cheif Architect action plan
 
