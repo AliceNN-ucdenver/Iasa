@@ -193,94 +193,87 @@ AI-driven policy generation and optimization. Governance rules evolve based on o
 ### Level 5: Autonomous governance
 Full intent-based governance. Architects express strategic goals and constraints; the governance platform interprets, enforces, and adapts automatically. Compliance posture is continuous across all dimensions. Governance is invisible infrastructure, and teams experience it as "things just work." Human involvement is limited to genuinely strategic governance decisions that require judgment about competing priorities, novel risk categories, and emerging technology paradigms.
 
-### Business Application Repository
-The Business Application Repository (BAR) is a lightweight GitHub repository created for every Business Application. It holds a minimal set of version‑controlled artifacts required to streamline Architecture, Information Risk, Security Architecture, and Operations Governance workflows.
+### The Business Application Repository: Governance made tangible
 
-It is not a code repository.
-It is a source of truth that ties together:
+The maturity levels described above may seem abstract. Codified governance, automated enforcement, adaptive policy — these concepts are compelling in theory, but Chief Architects need to see what they look like at the level of a single business application. The Business Application Repository (BAR) provides that answer: a lightweight, version-controlled GitHub repository created for every business application that serves as the connective tissue between architecture decisions, threat models, risk assessments, and operational readiness.
 
-- Architecture
-- Threat Modeling
-- Information Risk
-- Operations Governance
-- Governance decisions
+The BAR is not a code repository. It is a governance artifact — a single source of truth that ties together every domain an enterprise must govern. Each folder in its structure maps directly to one of the four pillars of autonomous governance described in Section II, making the abstract concrete and the theoretical executable.
 
-Index of underlying repos
-```markdown{.line-numbers}
+![Business Application Repository — The Four Pillars Made Concrete](bar-four-pillars.png)
+
+#### Structure: One repository, four pillars
+
+The BAR's directory structure is deliberately minimal. Every artifact it contains exists because it serves a governance purpose, and every governance purpose is represented by an artifact. There is no documentation for documentation's sake. The structure is the strategy.
+
+```
 /<business-application>/
 |
-├── app.yaml (business application meta data, criticality, lifecycle)
+├── app.yaml                          # Business application metadata, criticality, lifecycle
 |
-├── architecture/
-│   ├── conceptual.png (conceptual diagram - generated from DSL (e.g. CALM)
-│   ├── logical.png (conceptual diagram - generated from DSL (e.g. CALM)
-│   ├── context.png (conceptual diagram - generated from DSL (e.g. CALM)
-│   ├── sequence.png (conceptual diagram - generated from DSL (e.g. CALM)
+├── architecture/                     # PILLAR 1: Architecture as Code
+│   ├── conceptual.png                #   Generated from DSL (e.g. CALM)
+│   ├── logical.png                   #   Generated from DSL (e.g. CALM)
+│   ├── context.png                   #   Generated from DSL (e.g. CALM)
+│   ├── sequence.png                  #   Generated from DSL (e.g. CALM)
 │   └── ADRs/
 │       └── ADR-0001.md
 |
-├── security/
-│   └── threat-model.json (uses DSL - logical, context, sequence, data classification, and repos for larger view)
+├── security/                         # PILLAR 4: Application Security as Code
+│   └── threat-model.json             #   Uses DSL — logical, context, sequence,
+|                                     #   data classification, and repos for larger view
 |
-├── information-risk/
-│   ├── ira.md (information risk assessment)
-│   ├── vism.yaml (third party risk)
-│   └── data-classification.yaml (data classification fields)
+├── information-risk/                 # PILLAR 2: Information Risk as Code
+│   ├── ira.md                        #   Information risk assessment
+│   ├── vism.yaml                     #   Third-party risk
+│   └── data-classification.yaml      #   Data classification fields
 |
-├── operations/
-│   ├── application-runbook.md (operational readiness)
-│   └── service-mapping.yaml (dependencies)
+├── operations/                       # PILLAR 3: Operations Governance as Code
+│   ├── application-runbook.md        #   Operational readiness
+│   └── service-mapping.yaml          #   Dependencies
 |
 ├── repos/
-│   └── index.yaml (individual repos that make up the business applications)
+│   └── index.yaml                    #   Individual repos that make up the business application
 |
 └── governance/
-    ├── decisions.yaml (governance decisions - map to ADRs)
+    └── decisions.yaml                #   Governance decisions — mapped to ADRs
 ```
 
-### Governance‑as‑Code Workflow (Fully Defined)
-This lightweight model encodes:
+The `architecture/` folder is Pillar 1 made real. Diagrams are generated from a domain-specific language like CALM rather than hand-drawn in a slide deck, which means they are parseable, diffable, and testable. Architecture Decision Records live alongside the diagrams they justify, creating an auditable trail from intent to implementation. When Ford and Richards describe architectural fitness functions that validate structural rules per commit, this is the structure those fitness functions validate against.
 
-- Architecture‑as‑Code
-- Security Architecture‑as‑Code (Threat Model)
-- Information Risk‑as‑Code
-- Governance‑as‑Code
+The `information-risk/` folder operationalizes Pillar 2's federated computational governance. The information risk assessment, third-party risk inventory, and data classification definitions are version-controlled YAML and markdown — not spreadsheets emailed between risk analysts and application teams. When a policy-as-code engine like Open Policy Agent evaluates a deployment against data classification and residency rules, these files are its authoritative source. Domain teams own their risk posture, but organization-wide risk policies are consistently applied because the policy engine reads from a standardized, machine-readable structure.
 
-#### PR Trigger Rules
-A governance review is triggered when a PR modifies:
+The `operations/` and `repos/` folders ground Pillar 3's golden paths and guardrails. The service mapping defines dependencies, the repo index inventories every component, and the runbook codifies operational readiness. Cross-file consistency checks — does every repository in `repos/index.yaml` appear in `operations/service-mapping.yaml`? — replace the manual coordination that typically falls through the cracks between architecture, development, and operations teams.
 
-```markdown
-architecture/
-security/threat-model.json
-information-risk/
-operations/
-governance/
-```
+The `security/` folder brings Pillar 4's shift-left enforcement to the application level. The threat model is stored as structured JSON that ingests the logical, context, and sequence diagrams along with data classification and repo information to produce a comprehensive, machine-readable threat assessment. When Snyk, CodeQL, or Trivy scan every commit against organizational security policy, the threat model provides the application-specific context that transforms generic scanning into targeted, meaningful governance.
 
-Automated Checks (Pre‑Merge)
+The `governance/` folder is the unifying layer. Every governance decision across all four domains is recorded in `decisions.yaml` and mapped back to the Architecture Decision Records that justify it. This creates a complete, version-controlled decision history that is searchable, auditable, and — critically — diffable. When a regulator asks "why was this architectural choice made?" the answer is not in someone's memory or an archived email thread. It is in a Git commit with a timestamp, an author, and a linked ADR.
 
-1. YAML schema validation
-2. Required files present (conceptual, logical, threat model, IRA, runbook)
-3. Cross‑file consistency (e.g., repos in index.yaml appear in service-mapping.yaml)
-4. Mandatory ADR for changes in architecture
-5. Threat model updated if logical/context changed
-6. IRA updated if threat model changed
+#### The workflow: Governance that happens for teams, not to them
 
-If checks fail → PR blocked
+Recall the governance paradox from Section I: the more governance you impose through manual processes, the more teams route around it, creating the shadow architecture and governance theater that governance was designed to prevent. The BAR's automated workflow is the direct antidote. Governance does not happen in a conference room two weeks after a team submits a request. It happens in the pull request, seconds after a change is proposed.
 
-If checks pass → reviewers assigned
+![Governance-as-Code Workflow — From PR to Production](bar-workflow.png)
 
-Unified intake
+A governance review is triggered automatically when a pull request modifies any governance-sensitive path: `architecture/`, `security/threat-model.json`, `information-risk/`, `operations/`, or `governance/`. The trigger is precise — changes to non-governance files do not create unnecessary review overhead, and changes to governance files cannot bypass review.
 
-- Automatic threat modeling
-- Automatic risk scoping
-- Automatic governance packaging
-- Faster approvals
-- Clearer decision history
-- Drift detection
+Before any pull request can merge, the pipeline validates YAML schemas, confirms all required artifacts are present — conceptual diagrams, threat models, risk assessments, runbooks — and checks cross-file consistency. The cascade logic encodes the dependency relationships between governance domains: if a developer modifies the logical or context architecture without updating the corresponding threat model, the PR is blocked automatically with actionable feedback explaining exactly what needs to change. If the threat model changes but the information risk assessment has not been updated to reflect the new threat surface, the PR is blocked again. Each governance domain is aware of the others because the automation encodes the relationships that manual processes routinely fail to enforce.
 
+When all automated checks pass, the appropriate reviewers are assigned by governance domain — not by a project manager consulting a RACI matrix, but by the pipeline itself based on what changed. When checks fail, the developer receives specific, actionable feedback and fixes the violations before resubmitting. No tickets are filed. No meetings are scheduled. No one waits.
 
-## VII. Getting started: The Cheif Architect action plan
+This is the promise of Section I delivered at the atomic level: governance as invisible infrastructure. Teams experience it as "things just work." They open a PR, the platform tells them whether they are compliant, and they either merge or fix. The enterprise gets continuous, consistent enforcement across every business application. The result is not less governance — it is more governance, applied more frequently, with greater consistency, at a fraction of the friction.
+
+#### Why the BAR is the atomic unit of autonomous governance
+
+The BAR is the smallest complete expression of the autonomous governance model. A single BAR for a single business application demonstrates that architecture, security, risk, and operations governance can be codified, automated, and continuously enforced without committees, without approval queues, and without the deployment bottlenecks that drive teams toward shadow architecture.
+
+When this pattern is multiplied across the enterprise portfolio — one BAR per business application, each continuously validated, each feeding into enterprise-wide governance dashboards — the Chief Architect's role shifts from reviewing individual applications to curating the governance platform that validates all of them. The BAR does not replace the architect's judgment. It replaces the 80% of governance activity that is context (routine, rule-based, and deterministic) so that the architect can invest full capacity in the 20% that is core (strategic, judgment-intensive, and differentiating).
+
+That shift from gatekeeper of individual decisions to designer of the system that makes thousands of correct decisions automatically is where the action plan begins.
+
+### Business Application Repository
+The Business Application Repository (BAR) is a lightweight GitHub repository created for every Business Application. It holds a minimal set of version‑controlled artifacts required to streamline Architecture, Information Risk, Security Architecture, and Operations Governance workflows.
+
+## VII. Getting started: The Chief Architect action plan
 
 ### First 30 days: Assess and align
 
