@@ -193,7 +193,53 @@ AI-driven policy generation and optimization. Governance rules evolve based on o
 ### Level 5: Autonomous governance
 Full intent-based governance. Architects express strategic goals and constraints; the governance platform interprets, enforces, and adapts automatically. Compliance posture is continuous across all dimensions. Governance is invisible infrastructure, and teams experience it as "things just work." Human involvement is limited to genuinely strategic governance decisions that require judgment about competing priorities, novel risk categories, and emerging technology paradigms.
 
-## VII. Getting started: The CIO's action plan
+### Business Application Repository
+The Business Application Repository (BAR) is a lightweight GitHub repository created for every LeanIX Business Application. It holds a minimal set of version‑controlled artifacts required to streamline Architecture, Information Risk, Security Architecture, and Operations Governance workflows.
+
+It is not a code repository.
+It is a source of truth that ties together:
+
+- Architecture
+- Threat Modeling
+- Information Risk
+- Operations Governance
+- Governance decisions
+
+Index of underlying repos
+```markdown{.line-numbers}
+/<business-application>/
+|
+├── app.yaml
+|
+├── architecture/
+│   ├── conceptual.png
+│   ├── logical.png
+│   ├── context.png
+│   ├── sequence.png
+│   └── ADRs/
+│       └── ADR-0001.md
+|
+├── security/
+│   └── threat-model.json
+|
+├── information-risk/
+│   ├── ira.md
+│   ├── vism.yaml
+│   └── data-classification.yaml
+|
+├── operations/
+│   ├── application-runbook.md
+│   └── service-mapping.yaml
+|
+├── repos/
+│   └── index.yaml
+|
+└── governance/
+    ├── decisions.yaml
+```
+
+
+## VII. Getting started: The Cheif Architect action plan
 
 ### First 30 days: Assess and align
 
