@@ -6,13 +6,15 @@ Traditional governance models are choking enterprise velocity. Architecture revi
 
 The shift is fundamental: from governance as a gate to governance as a platform. From architects who say no to architects who make yes effortless. From compliance as a checkpoint to compliance as invisible infrastructure. This is autonomous governance, and it represents the most significant evolution in enterprise architecture practice since the move from waterfall to agile.
 
+This article provides a framework for making that shift, including a concrete, implementable governance repository structure and a phased action plan for Chief Architects ready to move from theory to practice.
+
 The opportunity is not just faster delivery. It is the creation of technology platforms that become genuine launchpads for enterprise innovation, platforms where teams bring ideas and the platform handles compliance, security, risk, and architectural integrity automatically, behind the scenes.
 
 **Key takeaways:**
 
 * **Governance must become code, not committees**: Encoding architecture, security, risk, and operations governance as executable rules enables continuous, automated enforcement at the speed of delivery.
 * **The "as code" convergence is the enabling force**: Architecture as code, information risk as code, operations governance as code, and application security as code are converging into a unified governance platform that operates autonomously.
-* **Target state architecture is insufficient**: Static blueprints and disposition-based models cannot keep pace with modern enterprises. Platforms that embed governance become launchpads that generate velocity rather than constrain it.
+* **Portfolio disposition is necessary but insufficient**: Even modern frameworks like Forrester's REAP model provide the sensing layer. Enterprises need an execution layer, platforms that embed governance as launchpads generating velocity rather than constraining it.
 * **Core vs. context strategy demands automation**: Governance is mission-critical context, essential but not differentiating. Automating it frees architects and engineers to focus on core activities that create competitive advantage.
 * **The architect's role transforms, not diminishes**: Autonomous governance elevates the architect from gatekeeper to platform designer, the person who designs the system that makes the right thing easy and the wrong thing hard.
 
@@ -89,15 +91,15 @@ The [Software Composition Analysis (SCA)](https://medium.com/@cdxlabs.abhiram/po
 
 ## III. Why target state architecture is not enough
 
-For decades, [enterprise architecture](https://www.cio.com/article/4020233/from-fixed-frameworks-to-strategic-enablers-architecting-ai-transformation.html) has operated on the premise of defining a target state (a desired future architecture) and managing the portfolio's transition toward it. Disposition-based models refine this by categorizing existing capabilities into tolerate, invest, migrate, or eliminate buckets. Both approaches share a fundamental limitation: they are static representations of a dynamic reality.
+For decades, [enterprise architecture](https://www.cio.com/article/4020233/from-fixed-frameworks-to-strategic-enablers-architecting-ai-transformation.html) has operated on the premise of defining a target state (a desired future architecture) and managing the portfolio's transition toward it. Disposition-based models have evolved significantly in response, with Forrester's recent [REAP framework](https://www.forrester.com/blogs/reap-a-modern-application-disposition-model-for-an-ai-and-cloud-economy/) (Reassess, Extract, Advance, Prune) replacing the traditional TIME categories (Tolerate, Invest, Migrate, Eliminate) with a more dynamic, signal-driven approach built for AI-native portfolios. REAP represents genuine progress: it integrates business fitness, technical fitness, and engineering velocity into continuous portfolio sensing rather than point-in-time classification. But even REAP, by its own acknowledgment, is an assessment and disposition framework. It provides the intelligence layer. The question this article addresses is different: how do you build the governance platform that acts on those signals continuously, automatically, and at the speed of delivery?
 
-### The three failures of static target states
+### Where target state thinking falls short
 
 **Target states become obsolete before they are achieved.** The average enterprise architecture target state takes six to twelve months to define and socialize. In an environment where cloud providers release hundreds of new capabilities per quarter and AI is reshaping technology paradigms monthly, a twelve-month-old target state is not a North Star. It is a historical artifact.
 
 **Rigid mandates create perverse outcomes.** Consider an organization that mandates all system integration through REST APIs as its target state. When a SaaS vendor only supports file-based integration, architects face a choice: over-engineer a complex API wrapper to satisfy the mandate, or request an exception that undermines the standard. Neither outcome serves the organization. The mandate optimizes for architectural purity at the expense of pragmatic delivery.
 
-**Disposition is backward-looking.** Categorizing the existing portfolio tells you what you have and what to do with it. It does not generate new possibilities. It does not create velocity. It does not enable teams to innovate within guardrails. Disposition-based architecture is fundamentally a management tool, not a generative one.
+**Disposition alone is necessary but insufficient.** Modern disposition frameworks like Forrester's REAP model provide the portfolio intelligence layer, continuous sensing of business fitness, technical debt, and AI readiness across the application estate. This is valuable and necessary work. But sensing what to do with an application and governing how that work flows through the enterprise are different problems. REAP tells you which applications need investment, extraction, or pruning. Autonomous governance provides the execution layer, the platform that ensures investment flows through validated, compliant channels and that pruning decisions are enforced consistently. The BAR connects the two: disposition provides the strategic signal, and governance-as-code provides the operational response.
 
 ### From target state to platform launchpad
 
@@ -208,7 +210,7 @@ The BAR's directory structure is deliberately minimal. Every artifact it contain
 ```
 /<business-application>/
 |
-├── app.yaml                          # Business application metadata, criticality, lifecycle
+├── app.yaml                          # Business application metadata, criticality, lifecycle, component, repo index
 |
 ├── architecture/                     # PILLAR 1: Architecture as Code
 │   ├── conceptual.png                #   Generated from DSL (e.g. CALM)
@@ -220,7 +222,7 @@ The BAR's directory structure is deliberately minimal. Every artifact it contain
 |
 ├── security/                         # PILLAR 4: Application Security as Code
 │   └── threat-model.json             #   Uses DSL — logical, context, sequence,
-|                                     #   data classification, and repos for larger view
+|                                     #   data classification, and app.yaml for larger view
 |
 ├── information-risk/                 # PILLAR 2: Information Risk as Code
 │   ├── ira.md                        #   Information risk assessment
@@ -231,9 +233,6 @@ The BAR's directory structure is deliberately minimal. Every artifact it contain
 │   ├── application-runbook.md        #   Operational readiness
 │   └── service-mapping.yaml          #   Dependencies
 |
-├── repos/
-│   └── index.yaml                    #   Individual repos that make up the business application
-|
 └── governance/
     └── decisions.yaml                #   Governance decisions — mapped to ADRs
 ```
@@ -242,7 +241,7 @@ The `architecture/` folder is Pillar 1 made real. Diagrams are generated from a 
 
 The `information-risk/` folder operationalizes Pillar 2's federated computational governance. The information risk assessment, third-party risk inventory, and data classification definitions are version-controlled YAML and markdown, not spreadsheets emailed between risk analysts and application teams. When a policy-as-code engine like Open Policy Agent evaluates a deployment against data classification and residency rules, these files are its authoritative source. Domain teams own their risk posture, but organization-wide risk policies are consistently applied because the policy engine reads from a standardized, machine-readable structure.
 
-The `operations/` and `repos/` folders ground Pillar 3's golden paths and guardrails. The service mapping defines dependencies, the repo index inventories every component, and the runbook codifies operational readiness. Cross-file consistency checks, such as whether every repository in `repos/index.yaml` appears in `operations/service-mapping.yaml`, replace the manual coordination that typically falls through the cracks between architecture, development, and operations teams.
+The `operations/` folder and the component repository index in `app.yaml` ground Pillar 3's golden paths and guardrails. The service mapping defines dependencies, the app manifest inventories every component repository, and the runbook codifies operational readiness. Cross-file consistency checks, such as whether every repository listed in `app.yaml` appears in `operations/service-mapping.yaml`, replace the manual coordination that typically falls through the cracks between architecture, development, and operations teams.
 
 The `security/` folder brings Pillar 4's shift-left enforcement to the application level. The threat model is stored as structured JSON that ingests the logical, context, and sequence diagrams along with data classification and repo information to produce a comprehensive, machine-readable threat assessment. When Snyk, CodeQL, or Trivy scan every commit against organizational security policy, the threat model provides the application-specific context that transforms generic scanning into targeted, meaningful governance.
 
@@ -303,7 +302,7 @@ That shift, from gatekeeper of individual decisions to designer of the system th
 
 ## VIII. The architect's new identity
 
-Autonomous governance does not diminish the architect's role. It elevates it. The architect who spends their days reviewing deployment diagrams and signing off on technology selections is performing context work. The architect who designs the governance platform, who encodes architectural intent into fitness functions, who creates the golden paths that make thousands of correct decisions per day without human intervention, who shapes the guardrails within which an entire enterprise innovates: that is core work.
+Autonomous governance does not diminish the architect's role. It elevates it. The architect who spends their days reviewing deployment diagrams and signing off on technology selections is performing context work. The architect who designs the governance platform, who encodes architectural intent into fitness functions, who creates the golden paths that make thousands of correct decisions per day without human intervention, who shapes the guardrails within which an entire enterprise innovates, and who can see governance health across the entire portfolio in real time through automated dashboards rather than quarterly reports: that is core work.
 
 This is the transition from gatekeeper to launchpad designer. From the person who approves the flight plan to the person who builds the runway.
 
