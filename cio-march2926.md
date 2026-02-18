@@ -210,7 +210,7 @@ The BAR's directory structure is deliberately minimal. Every artifact it contain
 ```
 /<business-application>/
 |
-├── app.yaml                          # Business application metadata, criticality, lifecycle, component, repo index
+├── app.yaml                          # Business application metadata, criticality, lifecycle, component repo index
 |
 ├── architecture/                     # PILLAR 1: Architecture as Code
 │   ├── conceptual.png                #   Generated from DSL (e.g. CALM)
